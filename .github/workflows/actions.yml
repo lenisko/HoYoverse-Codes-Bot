@@ -2,7 +2,7 @@ name: run scrape.py
 
 on:
   schedule:
-    - cron: '* */12 * * *' # Every 12 hours
+    - cron: '*/5 * * * *' # Every 12 hours
 
 jobs:
   build:
