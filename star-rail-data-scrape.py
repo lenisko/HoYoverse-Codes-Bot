@@ -95,7 +95,7 @@ def save_to_json(events, codes):
         'Codes': codes
     }
 
-    with open("data.json", "w") as json_file:
+    with open("star-rail-data.json", "w") as json_file:
         json.dump(data, json_file)
 
 
