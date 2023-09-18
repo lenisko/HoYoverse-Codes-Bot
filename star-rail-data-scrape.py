@@ -12,6 +12,7 @@ def fetch_events():
     soup = BeautifulSoup(response.text, 'html.parser')
 
     events = [soup.select('.wikitable')[i].select('tbody > tr:not(:first-child)') for i in range(3)]
+    statuses = ['Current', 'Upcoming', 'Permanent']
     all_events = {'Current': [], 'Upcoming': [], 'Permanent': []}
 
     for event in events:
@@ -21,16 +22,12 @@ def fetch_events():
             imageURL = imageURL.replace("scale-to-width-down/250", "scale-to-width-down/500").strip()
             duration = row.contents[1].text.split(' – ')
             type = row.contents[2].text.split(', ')
+            status = statuses[events.index(event)]
             page = 'https://honkai-star-rail.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Events').strip()
             
-            table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'page': page}
+            table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'status': status, 'page': page}
 
-            if events.index(event) == 0:
-                all_events['Current'].append(table)
-            elif events.index(event) == 1:
-                all_events['Upcoming'].append(table)
-            elif events.index(event) == 2:
-                all_events['Permanent'].append(table)
+            all_events[status].append(table)
 
     return all_events
 
@@ -43,6 +40,7 @@ def fetch_codes():
 
     table = soup.select('.wikitable')[0].select('tbody > tr:not(:first-child)')
 
+    codes = {'expiredCodes': [], 'activeCodes': []}
     for code_row in table:
         code = code_row.contents[0].text.split('[')[0].strip()
         server = code_row.contents[1].text.strip()
@@ -58,8 +56,9 @@ def fetch_codes():
             'isExpired': is_expired
         }
 
-        codes = {'expiredCodes': [], 'activeCodes': []}
-        if is_expired:
+        if rewards == []:
+            pass
+        elif is_expired:
             codes['expiredCodes'].append(code_item)
         else:
             codes['activeCodes'].append(code_item)
