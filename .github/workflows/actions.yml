@@ -1,8 +1,9 @@
-name: run scrape.py
+name: run star-rail-data-scrape.py
 
 on:
   schedule:
     - cron: '0 */12 * * *' # Every 12 hours
+  workflow_dispatch:
 
 jobs:
   build:

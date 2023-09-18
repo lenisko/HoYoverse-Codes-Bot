@@ -1,4 +1,5 @@
 import re
+import traceback
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -15,13 +16,14 @@ def fetch_events():
 
     for event in events:
         for row in event:
-            event_name = row.contents[0].text.strip()
+            name = row.contents[0].text.strip()
             imageURL = row.select_one('img').get('data-src', '') or row.select_one('img').get('src', '').strip()
             imageURL = imageURL.replace("scale-to-width-down/250", "scale-to-width-down/500").strip()
             duration = row.contents[1].text.split(' – ')
-            event_type = row.contents[2].text.split(', ')
-
-            table = { 'event': event_name, 'image': imageURL, 'duration': duration, 'type': event_type }
+            type = row.contents[2].text.split(', ')
+            page = 'https://honkai-star-rail.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Events').strip()
+            
+            table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'page': page}
 
             if events.index(event) == 0:
                 all_events['Current'].append(table)
@@ -106,4 +108,5 @@ if __name__ == "__main__":
         save_to_json(events, codes)
     except Exception as e:
         print(e)
-        SystemError(e)
+        traceback.print_exc()
+        SystemExit(e)
