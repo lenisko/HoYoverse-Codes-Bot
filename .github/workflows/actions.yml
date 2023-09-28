@@ -1,4 +1,4 @@
-name: run star-rail-data-scrape.py
+name: run data scrapers
 
 on:
   schedule:
@@ -23,15 +23,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: execute py script # run scrape.py
+      - name: execute star-rail-data-scraper script
         run: python star-rail-data-scrape.py
+          
+      - name: execute genshin-impact-data-scraper script
+        run: python genshin-impact-data-scrape.py
           
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git diff-index --quiet HEAD || (git commit -a -m "[Star Rail] Refreshed data from Fandom" --allow-empty)
+          git diff-index --quiet HEAD || (git commit -a -m "[Data Scrapers] Refreshed data from Fandom" --allow-empty)
           
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0

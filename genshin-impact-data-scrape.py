@@ -4,9 +4,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
-
 def fetch_events():
-    url = "https://honkai-star-rail.fandom.com/wiki/Events"
+    url = "https://genshin-impact.fandom.com/wiki/Event"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
@@ -18,11 +17,11 @@ def fetch_events():
     for event in events:
         for row in event:
             name = row.contents[0].text.strip()
-            imageURL = row.select_one('img').get('data-src', '') or row.select_one('img').get('src', '')
+            imageURL = row.select_one('img').get('data-src', '') or row.select_one('img').get('src', '').strip()
             duration = row.contents[1].text.split(' – ')
             type = row.contents[2].text.split(', ')
             status = statuses[events.index(event)]
-            page = 'https://honkai-star-rail.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Events').strip()
+            page = 'https://genshin-impact.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Event').strip()
             
             table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'status': status, 'page': page}
 
@@ -32,23 +31,23 @@ def fetch_events():
 
 
 def fetch_codes():
-    url = "https://honkai-star-rail.fandom.com/wiki/Redemption_Code"
+    url = "https://genshin-impact.fandom.com/wiki/Promotional_Code"
     response = requests.get(url)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, 'html.parser')
-    # with open("star_rail_promo_codes.html", "w", encoding="utf-8") as file: file.write(response.text)
-    # with open("star_rail_promo_codes.html", "r", encoding="utf-8") as file: html_content = file.read()
+    # with open("genshin_impact_promo_codes.html", "w", encoding="utf-8") as file: file.write(response.text)
+    # with open("genshin_impact_promo_codes.html", "r", encoding="utf-8") as file: html_content = file.read()
     # soup = BeautifulSoup(html_content, 'html.parser')
 
     table = soup.select('.wikitable')[0].select('tbody > tr:not(:first-child)')
 
     codes = {'activeCodes': [], 'expiredCodes': []}
     for code_row in table:
-        code = code_row.contents[0].text.split('[')[0].strip()
-        server = code_row.contents[1].text.strip()
-        rewards = parse_rewards(code_row.contents[2])
-        duration = parse_duration(code_row.contents[3])
-        is_expired = 'Expired:' in code_row.contents[3].text
+        code = code_row.contents[1].text.split('[')[0].strip()
+        server = code_row.contents[3].text.strip()
+        rewards = parse_rewards(code_row.contents[5])
+        duration = parse_duration(code_row.contents[7])
+        is_expired = 'Expired:' in code_row.contents[7].text
 
         code_item = {
             'code': code,
@@ -82,8 +81,6 @@ def parse_rewards(html_element):
         })
 
     return rewards_list
-
-
 def parse_duration(duration_html):
     duration = str(duration_html).split('>')
     for i in range(len(duration)): 
@@ -97,7 +94,7 @@ def save_to_json(events, codes):
         'Codes': codes
     }
 
-    with open("star-rail-data.json", "w") as json_file:
+    with open("genshin-impact-data.json", "w") as json_file:
         json.dump(data, json_file, indent=4)
 
 def discord_notify(content, error=False):
@@ -130,7 +127,7 @@ if __name__ == "__main__":
         events = fetch_events()
         codes = fetch_codes()
         save_to_json(events, codes)
-        discord_notify("`star-rail-data.json` was updated.")
+        discord_notify("`genshin-impact-data.json` was updated.")
     except Exception as e:
         discord_notify("Whoops~ Looks like HoYo Scraper ran into an error.", True)
         print(e)
