@@ -55,6 +55,19 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Interastral_Travel_Benefits"
             },
             {
+                "event": "Aptitude Showcase - Fu Xuan, Lynx, Hook, Pela",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Aptitude_Showcase_-_Fu_Xuan%2C_Lynx%2C_Hook%2C_Pela.png/revision/latest/scale-to-width-down/250?cb=20230929013706",
+                "duration": [
+                    "September 20, 2023",
+                    "October 10, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-09-20"
+            },
+            {
                 "event": "Space Station Task Force",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Event_Space_Station_Task_Force.png/revision/latest/scale-to-width-down/250?cb=20230926200854",
                 "duration": [
@@ -66,6 +79,19 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Space_Station_Task_Force"
+            },
+            {
+                "event": "Gift of Radiance",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Event_Gift_of_Radiance.png/revision/latest/scale-to-width-down/250?cb=20230928214931",
+                "duration": [
+                    "September 29, 2023",
+                    "October 10, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Radiance"
             }
         ],
         "Upcoming": [
@@ -222,6 +248,69 @@
                 "isExpired": false
             },
             {
+                "code": "TAP8H27JBRGP",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Stellar Jade",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Stellar_Jade.png/revision/latest/scale-to-width-down/30?cb=20230722074903"
+                    },
+                    {
+                        "name": "Credit",
+                        "amount": "50000",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
+                    }
+                ],
+                "duration": [
+                    "Discovered: September 29, 2023",
+                    "Valid until: September 30, 2023</td"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "JSPRZ272S9JB",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Stellar Jade",
+                        "amount": "50",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Stellar_Jade.png/revision/latest/scale-to-width-down/30?cb=20230722074903"
+                    },
+                    {
+                        "name": "Traveler's Guide",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Item_Travelers_Guide.png/revision/latest/scale-to-width-down/30?cb=20230428024319"
+                    }
+                ],
+                "duration": [
+                    "Discovered: September 29, 2023",
+                    "Valid until: September 30, 2023</td"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "MT79YKNKARJX",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Stellar Jade",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Stellar_Jade.png/revision/latest/scale-to-width-down/30?cb=20230722074903"
+                    },
+                    {
+                        "name": "Refined Aether",
+                        "amount": "4",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6b/Item_Refined_Aether.png/revision/latest/scale-to-width-down/30?cb=20230428030941"
+                    }
+                ],
+                "duration": [
+                    "Discovered: September 29, 2023",
+                    "Valid until: September 30, 2023</td"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "STPN3TUUTQ8K",
                 "server": "All",
                 "rewards": [
@@ -241,7 +330,9 @@
                     "Valid until: Unknown</td"
                 ],
                 "isExpired": false
-            },
+            }
+        ],
+        "expiredCodes": [
             {
                 "code": "MB6N2TVCSQ9F",
                 "server": "All",
@@ -259,12 +350,10 @@
                 ],
                 "duration": [
                     "Discovered: August 30, 2023",
-                    "Valid until: September 26, 2023</td"
+                    "Expired: September 26, 2023</td"
                 ],
-                "isExpired": false
-            }
-        ],
-        "expiredCodes": [
+                "isExpired": true
+            },
             {
                 "code": "8B64E57RPP3P",
                 "server": "All",
