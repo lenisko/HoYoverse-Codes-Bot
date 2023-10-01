@@ -4,7 +4,10 @@ import requests
 from bs4 import BeautifulSoup
 import json
 
+discord_message = ""
+
 def fetch_events():
+    print('FETCHING EVENTS FOR GENSHIN IMPACT...')
     url = "https://genshin-impact.fandom.com/wiki/Event"
     response = requests.get(url)
     response.raise_for_status()
@@ -14,23 +17,33 @@ def fetch_events():
     statuses = ['Current', 'Upcoming', 'Permanent']
     all_events = {'Current': [], 'Upcoming': [], 'Permanent': []}
 
-    for event in events:
-        for row in event:
-            name = row.contents[0].text.strip()
-            imageURL = row.select_one('img').get('data-src', '') or row.select_one('img').get('src', '').strip()
-            duration = row.contents[1].text.split(' – ')
-            type = row.contents[2].text.split(', ')
-            status = statuses[events.index(event)]
-            page = 'https://genshin-impact.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Event').strip()
-            
-            table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'status': status, 'page': page}
+    for i, event in enumerate(events):
+        print(f'Getting {statuses[i]} events...')
+        for index, row in enumerate(event):
+            try:
+                print(f'[{index}] getting event:', end=' ')
+                name = row.contents[0].text.strip()
+                print(name)
+                imageURL = row.select_one('img').get('data-src', '') or row.select_one('img').get('src', '').strip()
+                duration = row.contents[1].text.split(' – ')
+                type = row.contents[2].text.split(', ')
+                status = statuses[events.index(event)]
+                page = 'https://genshin-impact.fandom.com' + row.contents[0].select_one('a').get('href', '/wiki/Event').strip()
+                
+                table = { 'event': name, 'image': imageURL, 'duration': duration, 'type': type, 'status': status, 'page': page}
 
-            all_events[status].append(table)
+                all_events[status].append(table)
+            except Exception as e:
+                print("Error: " + str(e.args[0]))
+                global discord_message
+                error_count = discord_message.count('\n')+1
+                discord_message += f"> `[{error_count}] Error: {str(e.args[0])}`\n"
 
     return all_events
 
 
 def fetch_codes():
+    print('FETCHING CODES FOR GENSHIN IMPACT...')
     url = "https://genshin-impact.fandom.com/wiki/Promotional_Code"
     response = requests.get(url)
     response.raise_for_status()
@@ -42,27 +55,35 @@ def fetch_codes():
     table = soup.select('.wikitable')[0].select('tbody > tr:not(:first-child)')
 
     codes = {'activeCodes': [], 'expiredCodes': []}
-    for code_row in table:
-        code = code_row.contents[1].text.split('[')[0].strip()
-        server = code_row.contents[3].text.strip()
-        rewards = parse_rewards(code_row.contents[5])
-        duration = parse_duration(code_row.contents[7])
-        is_expired = 'Expired:' in code_row.contents[7].text
+    for index, code_row in enumerate(table):
+        try:
+            print(f'[{index}] getting code:', end=' ')
+            code = code_row.contents[1].text.split('[')[0].strip()
+            print(code)
+            server = code_row.contents[3].text.strip()
+            rewards = parse_rewards(code_row.contents[5])
+            duration = parse_duration(code_row.contents[7])
+            is_expired = 'Expired:' in code_row.contents[7].text
 
-        code_item = {
-            'code': code,
-            'server': server,
-            'rewards': rewards,
-            'duration': duration,
-            'isExpired': is_expired
-        }
+            code_item = {
+                'code': code,
+                'server': server,
+                'rewards': rewards,
+                'duration': duration,
+                'isExpired': is_expired
+            }
 
-        if rewards == []:
-            pass
-        elif is_expired:
-            codes['expiredCodes'].append(code_item)
-        else:
-            codes['activeCodes'].append(code_item)
+            if rewards == []:
+                pass
+            elif is_expired:
+                codes['expiredCodes'].append(code_item)
+            else:
+                codes['activeCodes'].append(code_item)
+        except Exception as e:
+            print("Error: " + str(e.args[0]))
+            global discord_message
+            error_count = discord_message.count('\n')+1
+            discord_message += f"> `[{error_count}] Error: {str(e.args[0])}`\n"
 
     return codes
 
@@ -120,6 +141,7 @@ def discord_notify(content, error=False):
         print("Successfully notified via Discord.")
     else:
         print(f"Failed to notify via Discord. Status code: {response.status_code}")
+        SystemExit(f"Failed to notify via Discord. Status code: {response.status_code}")
 
 
 if __name__ == "__main__":
@@ -127,9 +149,11 @@ if __name__ == "__main__":
         events = fetch_events()
         codes = fetch_codes()
         save_to_json(events, codes)
-        discord_notify("`genshin-impact-data.json` was updated.")
+        discord_notify(f"`genshin-impact-data.json` was updated.\n{discord_message}")
     except Exception as e:
-        discord_notify("Whoops~ Looks like HoYo Scraper ran into an error.", True)
+        error_count = discord_message.count('\n')+1
+        discord_message += f"> `[{error_count}] Error: {str(e.args[0])}`\n"
+        discord_notify(f"Whoops~ Looks like HoYo Scraper ran into the following errors:\n{discord_message}", True)
         print(e)
         traceback.print_exc()
         SystemExit(e)
