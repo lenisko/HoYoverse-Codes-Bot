@@ -84,6 +84,19 @@
                 "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-09-27"
             },
             {
+                "event": "Gratifying Gathering",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0b/Gratifying_Gathering.png/revision/latest/scale-to-width-down/250?cb=20231001132417",
+                "duration": [
+                    "September 27, 2023",
+                    "October 04, 2023"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Gratifying_Gathering"
+            },
+            {
                 "event": "Hilichurls' Treasure Trove",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Hilichurls%27_Treasure_Trove_3.png/revision/latest/scale-to-width-down/250?cb=20230816173112",
                 "duration": [
@@ -180,18 +193,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Waterborne_Poetry"
             },
             {
-                "event": "The Peaks and Troughs of Life",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20230915125445",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/The_Peaks_and_Troughs_of_Life"
-            },
-            {
                 "event": "Overflowing Mastery 4.1",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
                 "duration": [
@@ -202,6 +203,18 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/4.1"
+            },
+            {
+                "event": "The Peaks and Troughs of Life",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20230915125445",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/The_Peaks_and_Troughs_of_Life"
             }
         ],
         "Permanent": [
