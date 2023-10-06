@@ -161,5 +161,5 @@ if __name__ == "__main__":
     events = run_with_error_handling(fetch_events)
     codes = run_with_error_handling(fetch_codes)
     save_to_json(events, codes)
-
-    discord_notify(f"HoYo Scraper operation completed.\n{discord_message}")
+    
+    discord_notify(f"`star-rail-data.json` was updated.\n{discord_message}")
