@@ -124,7 +124,7 @@ def discord_notify(content, error=False):
     
     if error:
         content =   f"<@{discord_id}> {content}" \
-                    f"Check https://github.com/jeryjs/data-scraper-for-star-rail-helper/actions/workflows/actions.yml for more details."
+                    f"Check <https://github.com/jeryjs/data-scraper-for-star-rail-helper/actions/workflows/actions.yml> for more details."
 
     payload = {
         'username': 'HoYo Scraper',
