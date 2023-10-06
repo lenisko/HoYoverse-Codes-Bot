@@ -125,7 +125,8 @@ def discord_notify(content, error=False):
     discord_webhook = "https://ptb.discord.com/api/webhooks/1031955469998243962/UO379MCHeXTXwk9s86qeZedKKNOa5aDVMHInqGea_dUEOzfPZf66i00CPbGOA0lOkIxp"
     
     if error:
-        content = f"<@{discord_id}> {content}\nCheck https://github.com/jeryjs/data-scraper-for-star-rail-helper/actions/workflows/actions.yml for more details."
+        content =   f"<@{discord_id}> {content}" \
+                    f"Check https://github.com/jeryjs/data-scraper-for-star-rail-helper/actions/workflows/actions.yml for more details."
 
     payload = {
         'username': 'HoYo Scraper',
@@ -145,16 +146,20 @@ def discord_notify(content, error=False):
         print(f"Failed to notify via Discord. Status code: {response.status_code}")
 
 
-if __name__ == "__main__":
+def run_with_error_handling(func):
     try:
-        events = fetch_events()
-        codes = fetch_codes()
-        save_to_json(events, codes)
-        discord_notify(f"`star-rail-data.json` was updated.\n{discord_message}")
+        return func()
     except Exception as e:
+        print("Error: " + str(e.args[0]))
+        traceback.print_exc()
+        global discord_message
         error_count = discord_message.count('\n')+1
         discord_message += f"> `[{error_count}] Error: {str(e.args[0])}`\n"
         discord_notify(f"Whoops~ Looks like HoYo Scraper ran into the following errors:\n{discord_message}", True)
-        print(e)
-        traceback.print_exc()
-        SystemExit(e)
+
+if __name__ == "__main__":
+    events = run_with_error_handling(fetch_events)
+    codes = run_with_error_handling(fetch_codes)
+    save_to_json(events, codes)
+
+    discord_notify(f"HoYo Scraper operation completed.\n{discord_message}")
