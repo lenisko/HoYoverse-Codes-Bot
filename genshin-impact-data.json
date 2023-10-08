@@ -15,20 +15,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Overture_of_Wandering_Notes"
             },
             {
-                "event": "Gifts of Encounter 2023-09-27",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/7/7d/Gifts_of_Encounter_2023-09-27.png/revision/latest/scale-to-width-down/250?cb=20230926220141",
-                "duration": [
-                    "September 27, 2023",
-                    "October 06, 2023"
-                ],
-                "type": [
-                    "Web",
-                    "Login"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Gifts_of_Encounter/2023-09-27"
-            },
-            {
                 "event": "Test Run - Neuvillette, Hu Tao, Xingqiu, Diona, Fischl",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Test_Run_-_Character_Trial_Event_Neuvillette_Hu_Tao_Fischl_Xingqiu_Diona.png/revision/latest/scale-to-width-down/250?cb=20230927030608",
                 "duration": [
@@ -136,9 +122,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Bathing_in_Flowing_Moonlight"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Dodoco's Bomb-Tastic Adventure",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Dodoco%27s_Bomb-Tastic_Adventure.png/revision/latest/scale-to-width-down/250?cb=20231004040051",
@@ -149,9 +133,11 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Dodoco%27s_Bomb-Tastic_Adventure"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Waterborne Poetry",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Waterborne_Poetry.png/revision/latest/scale-to-width-down/250?cb=20230915125447",
@@ -316,6 +302,27 @@
     },
     "Codes": {
         "activeCodes": [
+            {
+                "code": "4S97DELBCSV9",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "20,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    },
+                    {
+                        "name": "Hero's Wit",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 7, 2023",
+                    "Valid until: October 17, 2023"
+                ],
+                "isExpired": false
+            },
             {
                 "code": "WEQPKCLZYRDHWEQP3D5ZHRD9",
                 "server": "All",
@@ -539,7 +546,7 @@
                 ],
                 "duration": [
                     "Discovered: September 26, 2023",
-                    "Notes: Facebook Messenger Quiz."
+                    "Notes: Facebook Messenger Quiz<sup class=\"reference\" id=\"cite_ref-2\""
                 ],
                 "isExpired": false
             },
