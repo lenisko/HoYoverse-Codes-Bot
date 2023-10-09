@@ -1,5 +1,214 @@
 {
-    "Events": null,
+    "Events": {
+        "Current": [
+            {
+                "event": "Prime Gaming 2023-05-17",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Event_Prime_Gaming_2023-05-17.png/revision/latest/scale-to-width-down/250?cb=20230518222424",
+                "duration": [
+                    "May 17, 2023",
+                    "November 15, 2023"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Prime_Gaming/2023-05-17"
+            },
+            {
+                "event": "Come With Me, Take the Journey",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Come_With_Me%2C_Take_the_Journey.png/revision/latest/scale-to-width-down/250?cb=20231001123342",
+                "duration": [
+                    "August 30, 2023",
+                    "October 11, 2023"
+                ],
+                "type": [
+                    "Web",
+                    "Player Return"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Come_With_Me,_Take_the_Journey"
+            },
+            {
+                "event": "Nameless Honor 2023-08-30",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
+                "duration": [
+                    "August 30, 2023",
+                    "October 09, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Nameless Honor"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-08-30"
+            },
+            {
+                "event": "Gift of Odyssey 2023-08-30",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Event_Gift_of_Odyssey_2023-08-30.png/revision/latest/scale-to-width-down/250?cb=20230819023809",
+                "duration": [
+                    "August 30, 2023",
+                    "October 10, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-08-30"
+            },
+            {
+                "event": "Aptitude Showcase - Fu Xuan, Lynx, Hook, Pela",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Aptitude_Showcase_-_Fu_Xuan%2C_Lynx%2C_Hook%2C_Pela.png/revision/latest/scale-to-width-down/250?cb=20230929013706",
+                "duration": [
+                    "September 20, 2023",
+                    "October 10, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-09-20"
+            },
+            {
+                "event": "Space Station Task Force",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Event_Space_Station_Task_Force.png/revision/latest/scale-to-width-down/250?cb=20230926200854",
+                "duration": [
+                    "September 25, 2023",
+                    "October 09, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Space_Station_Task_Force"
+            },
+            {
+                "event": "Gift of Radiance",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Event_Gift_of_Radiance.png/revision/latest/scale-to-width-down/250?cb=20230928214931",
+                "duration": [
+                    "September 29, 2023",
+                    "October 10, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Radiance"
+            }
+        ],
+        "Upcoming": [
+            {
+                "event": "Garden of Plenty 1.3",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Event_Garden_of_Plenty.png/revision/latest/scale-to-width-down/250?cb=20230720105834",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Garden_of_Plenty/1.3"
+            }
+        ],
+        "Permanent": [
+            {
+                "event": "Honkai: Star Rail Daily Check-in",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Event_Honkai_Star_Rail_Daily_Check-in.png/revision/latest/scale-to-width-down/250?cb=20230809110126",
+                "duration": [
+                    "April 26, 2023"
+                ],
+                "type": [
+                    "Web",
+                    "Login"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Honkai:_Star_Rail_Daily_Check-in"
+            },
+            {
+                "event": "Trailblazing Will",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Event_Trailblazing_Will.png/revision/latest/scale-to-width-down/250?cb=20230528143248",
+                "duration": [
+                    "April 26, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Trailblazing_Will"
+            },
+            {
+                "event": "Starkissed Synchrony",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Event_Starkissed_Synchrony.png/revision/latest/scale-to-width-down/250?cb=20230720143547",
+                "duration": [
+                    "April 26, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Starkissed_Synchrony"
+            },
+            {
+                "event": "Turquoise's Reverie",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4c/Event_Turquoise%27s_Reverie.png/revision/latest/scale-to-width-down/250?cb=20230720153745",
+                "duration": [
+                    "April 26, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Turquoise%27s_Reverie"
+            },
+            {
+                "event": "Starlit Homecoming",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cc/Event_Starlit_Homecoming.png/revision/latest/scale-to-width-down/250?cb=20230721061926",
+                "duration": [
+                    "July 19, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Starlit_Homecoming"
+            },
+            {
+                "event": "To Retire Upon the Perch",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/12/Event_To_Retire_Upon_the_Perch.png/revision/latest/scale-to-width-down/250?cb=20230720155159",
+                "duration": [
+                    "July 19, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/To_Retire_Upon_the_Perch"
+            },
+            {
+                "event": "Joint Forces",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Event_Joint_Forces.png/revision/latest/scale-to-width-down/250?cb=20230721031023",
+                "duration": [
+                    "July 19, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Joint_Forces"
+            },
+            {
+                "event": "Simulated Universe: Swarm Disaster",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Simulated_Universe_Swarm_Disaster.png/revision/latest/scale-to-width-down/250?cb=20230830173814",
+                "duration": [
+                    "September 06, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Universe:_Swarm_Disaster"
+            }
+        ]
+    },
     "Codes": {
         "activeCodes": [
             {
