@@ -29,20 +29,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Come_With_Me,_Take_the_Journey"
             },
             {
-                "event": "Nameless Honor 2023-08-30",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
-                "duration": [
-                    "August 30, 2023",
-                    "October 09, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Nameless Honor"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-08-30"
-            },
-            {
                 "event": "Gift of Odyssey 2023-08-30",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Event_Gift_of_Odyssey_2023-08-30.png/revision/latest/scale-to-width-down/250?cb=20230819023809",
                 "duration": [
@@ -67,19 +53,6 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-09-20"
-            },
-            {
-                "event": "Space Station Task Force",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Event_Space_Station_Task_Force.png/revision/latest/scale-to-width-down/250?cb=20230926200854",
-                "duration": [
-                    "September 25, 2023",
-                    "October 09, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Space_Station_Task_Force"
             },
             {
                 "event": "Gift of Radiance",
