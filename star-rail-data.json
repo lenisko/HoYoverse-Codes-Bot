@@ -27,59 +27,21 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Come_With_Me,_Take_the_Journey"
-            },
-            {
-                "event": "Gift of Odyssey 2023-08-30",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6c/Event_Gift_of_Odyssey_2023-08-30.png/revision/latest/scale-to-width-down/250?cb=20230819023809",
-                "duration": [
-                    "August 30, 2023",
-                    "October 10, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-08-30"
-            },
-            {
-                "event": "Aptitude Showcase - Fu Xuan, Lynx, Hook, Pela",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Aptitude_Showcase_-_Fu_Xuan%2C_Lynx%2C_Hook%2C_Pela.png/revision/latest/scale-to-width-down/250?cb=20230929013706",
-                "duration": [
-                    "September 20, 2023",
-                    "October 10, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-09-20"
-            },
-            {
-                "event": "Gift of Radiance",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Event_Gift_of_Radiance.png/revision/latest/scale-to-width-down/250?cb=20230928214931",
-                "duration": [
-                    "September 29, 2023",
-                    "October 10, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Radiance"
             }
         ],
         "Upcoming": [
             {
-                "event": "Garden of Plenty 1.3",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Event_Garden_of_Plenty.png/revision/latest/scale-to-width-down/250?cb=20230720105834",
+                "event": "Aetherium Wars",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Event_Aetherium_Wars.png/revision/latest/scale-to-width-down/250?cb=20231010062216",
                 "duration": [
-                    " TBA "
+                    "October 11, 2023",
+                    "November 13, 2023"
                 ],
                 "type": [
                     "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Garden_of_Plenty/1.3"
+                "page": "https://honkai-star-rail.fandom.com/wiki/Aetherium_Wars"
             }
         ],
         "Permanent": [
