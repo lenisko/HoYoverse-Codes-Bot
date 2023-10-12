@@ -15,22 +15,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Prime_Gaming/2023-05-17"
             },
             {
-                "event": "Come With Me, Take the Journey",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Come_With_Me%2C_Take_the_Journey.png/revision/latest/scale-to-width-down/250?cb=20231001123342",
-                "duration": [
-                    "August 30, 2023",
-                    "October 11, 2023"
-                ],
-                "type": [
-                    "Web",
-                    "Player Return"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Come_With_Me,_Take_the_Journey"
-            }
-        ],
-        "Upcoming": [
-            {
                 "event": "Aetherium Wars",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Event_Aetherium_Wars.png/revision/latest/scale-to-width-down/250?cb=20231010062216",
                 "duration": [
@@ -40,10 +24,24 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Aetherium_Wars"
+            },
+            {
+                "event": "Interastral Travel Benefits",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/40/Interastral_Travel_Benefits.png/revision/latest/scale-to-width-down/250?cb=20230830104442",
+                "duration": [
+                    "October 11, 2023",
+                    "November 12, 2023"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Interastral_Travel_Benefits/2023-10-11"
             }
         ],
+        "Upcoming": [],
         "Permanent": [
             {
                 "event": "Honkai: Star Rail Daily Check-in",
@@ -146,6 +144,27 @@
     },
     "Codes": {
         "activeCodes": [
+            {
+                "code": "PT8TF72MQ93X",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Stellar Jade",
+                        "amount": "50",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Stellar_Jade.png/revision/latest/scale-to-width-down/30?cb=20230722074903"
+                    },
+                    {
+                        "name": "Credit",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 11, 2023",
+                    "Valid until: Unknown</td"
+                ],
+                "isExpired": false
+            },
             {
                 "code": "STARRAILGIFT",
                 "server": "All",
