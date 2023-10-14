@@ -293,6 +293,27 @@
     "Codes": {
         "activeCodes": [
             {
+                "code": "AAQNVELTVSXV",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "20,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 13, 2023",
+                    "Valid until: October 23, 2023"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "4S97DELBCSV9",
                 "server": "All",
                 "rewards": [
@@ -356,7 +377,7 @@
                 ],
                 "duration": [
                     "Discovered: September 26, 2023",
-                    "Notes: Facebook Messenger Quiz<sup class=\"reference\" id=\"cite_ref-2\""
+                    "Notes: Facebook Messenger Quiz<sup class=\"reference\" id=\"cite_ref-3\""
                 ],
                 "isExpired": false
             },
