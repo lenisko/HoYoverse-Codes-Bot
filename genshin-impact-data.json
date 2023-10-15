@@ -966,22 +966,22 @@
                     {
                         "name": "Mora",
                         "amount": "30,000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/30?cb=20210106073715"
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
                     },
                     {
                         "name": "Crab Roe Kourayaki",
                         "amount": "1",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Crab_Roe_Kourayaki.png/revision/latest/scale-to-width-down/30?cb=20210723044428"
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/f/f6/Item_Crab_Roe_Kourayaki.png/revision/latest/scale-to-width-down/20?cb=20210723044428"
                     },
                     {
                         "name": "Berry & Mint Burst",
                         "amount": "1",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Berry_%26_Mint_Burst.png/revision/latest/scale-to-width-down/30?cb=20201126235056"
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/b/bc/Item_Berry_%26_Mint_Burst.png/revision/latest/scale-to-width-down/20?cb=20201126235056"
                     },
                     {
                         "name": "Mint Jelly",
                         "amount": "1",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Item_Mint_Jelly.png/revision/latest/scale-to-width-down/30?cb=20210317031658"
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/7/79/Item_Mint_Jelly.png/revision/latest/scale-to-width-down/20?cb=20210317031658"
                     }
                 ],
                 "duration": [
@@ -1328,7 +1328,7 @@
                     },
                     {
                         "name": "Goulash",
-                        "amount": "5",
+                        "amount": "5<br",
                         "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/2f/Item_Goulash.png/revision/latest/scale-to-width-down/20?cb=20210416223513"
                     }
                 ],
@@ -2307,7 +2307,7 @@
                 "rewards": [
                     {
                         "name": "Primogem",
-                        "amount": "60",
+                        "amount": "60<br",
                         "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
                     }
                 ],
@@ -2865,7 +2865,7 @@
                 "rewards": [
                     {
                         "name": "Primogem",
-                        "amount": "60",
+                        "amount": "60<br",
                         "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
                     }
                 ],
