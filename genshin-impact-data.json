@@ -84,31 +84,18 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Treasures_Along_the_Road:_A_Thank-You_Gift"
             },
             {
-                "event": "Bathing in Flowing Moonlight",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c8/Bathing_in_Flowing_Moonlight.png/revision/latest/scale-to-width-down/250?cb=20230926040734",
+                "event": "GENSHIN CONCERT 2023 \"Melodies of an Endless Journey\"",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cf/GENSHIN_CONCERT_2023_-_Melodies_of_an_Endless_Journey.png/revision/latest/scale-to-width-down/250?cb=20230920220911",
                 "duration": [
                     "September 29, 2023",
-                    "October 16, 2023"
+                    "January 20, 2024"
                 ],
                 "type": [
-                    "In-Game",
-                    "Login"
+                    "In-Person",
+                    "Live"
                 ],
                 "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Bathing_in_Flowing_Moonlight"
-            },
-            {
-                "event": "Dodoco's Bomb-Tastic Adventure",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/bb/Dodoco%27s_Bomb-Tastic_Adventure.png/revision/latest/scale-to-width-down/250?cb=20231004040051",
-                "duration": [
-                    "October 06, 2023",
-                    "October 16, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Dodoco%27s_Bomb-Tastic_Adventure"
+                "page": "https://genshin-impact.fandom.com/wiki/Genshin_Concert/2023_Melodies_of_an_Endless_Journey"
             },
             {
                 "event": "Waterborne Poetry",
@@ -293,6 +280,22 @@
     "Codes": {
         "activeCodes": [
             {
+                "code": "TTQNCFMADSWH",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "30",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 16, 2023",
+                    "Valid until: October 24, 2023"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "AAQNVELTVSXV",
                 "server": "All",
                 "rewards": [
@@ -377,7 +380,7 @@
                 ],
                 "duration": [
                     "Discovered: September 26, 2023",
-                    "Notes: Facebook Messenger Quiz<sup class=\"reference\" id=\"cite_ref-3\""
+                    "Notes: Facebook Messenger Quiz<sup class=\"reference\" id=\"cite_ref-4\""
                 ],
                 "isExpired": false
             },
