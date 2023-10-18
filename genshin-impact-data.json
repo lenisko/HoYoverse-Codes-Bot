@@ -15,20 +15,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Overture_of_Wandering_Notes"
             },
             {
-                "event": "Test Run - Neuvillette, Hu Tao, Xingqiu, Diona, Fischl",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Test_Run_-_Character_Trial_Event_Neuvillette_Hu_Tao_Fischl_Xingqiu_Diona.png/revision/latest/scale-to-width-down/250?cb=20230927030608",
-                "duration": [
-                    "September 27, 2023",
-                    "October 17, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Test Run"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-09-27"
-            },
-            {
                 "event": "Falling Star",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Battle_Pass_Falling_Star.png/revision/latest/scale-to-width-down/250?cb=20230925041704",
                 "duration": [
@@ -112,18 +98,18 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Waterborne_Poetry"
             },
             {
-                "event": "Cogs in the Machine",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/ce/Cogs_in_the_Machine.png/revision/latest/scale-to-width-down/250?cb=20231012042153",
+                "event": "Test Run - Wriothesley, Venti, Chongyun, Thoma, Dori",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Test_Run_-_Character_Trial_Event_Wriothesley_Venti_Chongyun_Thoma_Dori.png/revision/latest/scale-to-width-down/250?cb=20231017225944",
                 "duration": [
-                    "October 12, 2023",
-                    "October 17, 2023"
+                    "October 17, 2023",
+                    "November 07, 2023"
                 ],
                 "type": [
-                    "Web",
-                    "Character Release"
+                    "In-Game",
+                    "Test Run"
                 ],
                 "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Cogs_in_the_Machine"
+                "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-10-17"
             }
         ],
         "Upcoming": [
@@ -317,27 +303,6 @@
                 "isExpired": false
             },
             {
-                "code": "4S97DELBCSV9",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Mora",
-                        "amount": "20,000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    },
-                    {
-                        "name": "Hero's Wit",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
-                    }
-                ],
-                "duration": [
-                    "Discovered: October 7, 2023",
-                    "Valid until: October 17, 2023"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "6T8NWE3HD7PD",
                 "server": "All",
                 "rewards": [
@@ -355,32 +320,6 @@
                 "duration": [
                     "Discovered: September 26, 2023",
                     ""
-                ],
-                "isExpired": false
-            },
-            {
-                "code": "AS97CE45EUER",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Mora",
-                        "amount": "20,000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    },
-                    {
-                        "name": "Hero's Wit",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
-                    },
-                    {
-                        "name": "Fine Enhancement Ore",
-                        "amount": "3",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Fine_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073916"
-                    }
-                ],
-                "duration": [
-                    "Discovered: September 26, 2023",
-                    "Notes: Facebook Messenger Quiz<sup class=\"reference\" id=\"cite_ref-4\""
                 ],
                 "isExpired": false
             },
@@ -423,6 +362,53 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "4S97DELBCSV9",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "20,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    },
+                    {
+                        "name": "Hero's Wit",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 7, 2023",
+                    "Expired: October 17, 2023"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "AS97CE45EUER",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "20,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    },
+                    {
+                        "name": "Hero's Wit",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                    },
+                    {
+                        "name": "Fine Enhancement Ore",
+                        "amount": "3",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Fine_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073916"
+                    }
+                ],
+                "duration": [
+                    "Discovered: September 26, 2023",
+                    "Expired: October 16, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "WEQPKCLZYRDHWEQP3D5ZHRD9",
                 "server": "All",
