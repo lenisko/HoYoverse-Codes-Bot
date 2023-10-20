@@ -2,19 +2,6 @@
     "Events": {
         "Current": [
             {
-                "event": "Overture of Wandering Notes",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/da/Overture_of_Wandering_Notes.png/revision/latest/scale-to-width-down/250?cb=20230912040405",
-                "duration": [
-                    "September 12, 2023",
-                    "October 19, 2023"
-                ],
-                "type": [
-                    "Web"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Overture_of_Wandering_Notes"
-            },
-            {
                 "event": "Falling Star",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Battle_Pass_Falling_Star.png/revision/latest/scale-to-width-down/250?cb=20230925041704",
                 "duration": [
@@ -113,6 +100,20 @@
             }
         ],
         "Upcoming": [
+            {
+                "event": "Heated Battle Mode: Reinforcements",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Heated_Battle_Mode_2023-10-21.png/revision/latest/scale-to-width-down/250?cb=20231019124410",
+                "duration": [
+                    "October 21, 2023",
+                    "October 30, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Heated Battle Mode"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-10-21"
+            },
             {
                 "event": "The Peaks and Troughs of Life",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20230915125445",
