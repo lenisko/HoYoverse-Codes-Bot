@@ -267,6 +267,22 @@
     "Codes": {
         "activeCodes": [
             {
+                "code": "Glad Tidings From Afar",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "40",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 20, 2023",
+                    "Valid until: October 28, 2023"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "TTQNCFMADSWH",
                 "server": "All",
                 "rewards": [
