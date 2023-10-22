@@ -97,9 +97,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-10-17"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Heated Battle Mode: Reinforcements",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Heated_Battle_Mode_2023-10-21.png/revision/latest/scale-to-width-down/250?cb=20231019124410",
@@ -111,9 +109,11 @@
                     "In-Game",
                     "Heated Battle Mode"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-10-21"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "The Peaks and Troughs of Life",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20230915125445",
