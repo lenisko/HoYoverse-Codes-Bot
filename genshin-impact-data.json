@@ -99,6 +99,19 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-10-17"
             },
             {
+                "event": "Glad Tidings From Afar",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ae/Glad_Tidings_From_Afar.png/revision/latest/scale-to-width-down/250?cb=20231022103335",
+                "duration": [
+                    "October 20, 2023",
+                    "October 28, 2023"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Glad_Tidings_From_Afar"
+            },
+            {
                 "event": "Heated Battle Mode: Reinforcements",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Heated_Battle_Mode_2023-10-21.png/revision/latest/scale-to-width-down/250?cb=20231019124410",
                 "duration": [
@@ -116,7 +129,7 @@
         "Upcoming": [
             {
                 "event": "The Peaks and Troughs of Life",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20230915125445",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20231022102634",
                 "duration": [
                     "October 23, 2023",
                     "November 06, 2023"
