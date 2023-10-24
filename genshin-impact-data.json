@@ -124,9 +124,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-10-21"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "The Peaks and Troughs of Life",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20231022102634",
@@ -137,9 +135,11 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/The_Peaks_and_Troughs_of_Life"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Overflowing Mastery 2023-10-30",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
@@ -312,27 +312,6 @@
                 "isExpired": false
             },
             {
-                "code": "AAQNVELTVSXV",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Mora",
-                        "amount": "20,000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    },
-                    {
-                        "name": "Mystic Enhancement Ore",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
-                    }
-                ],
-                "duration": [
-                    "Discovered: October 13, 2023",
-                    "Valid until: October 23, 2023"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "6T8NWE3HD7PD",
                 "server": "All",
                 "rewards": [
@@ -392,6 +371,27 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "AAQNVELTVSXV",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "20,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 13, 2023",
+                    "Expired: October 23, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "4S97DELBCSV9",
                 "server": "All",
