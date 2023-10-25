@@ -296,22 +296,6 @@
                 "isExpired": false
             },
             {
-                "code": "TTQNCFMADSWH",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "30",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    }
-                ],
-                "duration": [
-                    "Discovered: October 16, 2023",
-                    "Valid until: October 24, 2023"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "6T8NWE3HD7PD",
                 "server": "All",
                 "rewards": [
@@ -371,6 +355,22 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "TTQNCFMADSWH",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "30",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 16, 2023",
+                    "Expired: October 24, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "AAQNVELTVSXV",
                 "server": "All",
