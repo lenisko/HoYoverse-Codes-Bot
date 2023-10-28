@@ -15,19 +15,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Prime_Gaming/2023-05-17"
             },
             {
-                "event": "Aptitude Showcase - Jingliu, Tingyun, Qingque, Sampo",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/07/Aptitude_Showcase_-_Jingliu%2C_Tingyun%2C_Qingque%2C_Sampo.png/revision/latest/scale-to-width-down/250?cb=20231011230608",
-                "duration": [
-                    "October 11, 2023",
-                    "October 27, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-10-11"
-            },
-            {
                 "event": "Nameless Honor 2023-10-11",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
                 "duration": [
@@ -81,17 +68,17 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Interastral_Travel_Benefits/2023-10-11"
             },
             {
-                "event": "Planar Fissure 2023-10-20",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Event_Planar_Fissure.png/revision/latest/scale-to-width-down/250?cb=20230622230007",
+                "event": "Simulated Market",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7f/Event_Simulated_Market.png/revision/latest/scale-to-width-down/250?cb=20231027075427",
                 "duration": [
-                    "October 20, 2023",
-                    "October 27, 2023"
+                    "October 25, 2023",
+                    "October 30, 2023"
                 ],
                 "type": [
-                    "In-Game"
+                    "Web"
                 ],
                 "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Planar_Fissure/2023-10-20"
+                "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Market"
             }
         ],
         "Upcoming": [],
@@ -197,6 +184,27 @@
     },
     "Codes": {
         "activeCodes": [
+            {
+                "code": "KBQBEP3L8823",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Stellar Jade",
+                        "amount": "50",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Stellar_Jade.png/revision/latest/scale-to-width-down/30?cb=20230722074903"
+                    },
+                    {
+                        "name": "Credit",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 27, 2023",
+                    "Valid until: Unknown</td"
+                ],
+                "isExpired": false
+            },
             {
                 "code": "PT8TF72MQ93X",
                 "server": "All",
