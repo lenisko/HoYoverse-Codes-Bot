@@ -15,6 +15,19 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Prime_Gaming/2023-05-17"
             },
             {
+                "event": "Twitch Drops 2023-10-11",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Event_Twitch_Drops_2023-10-11.png/revision/latest/scale-to-width-down/250?cb=20231028002903",
+                "duration": [
+                    "October 11, 2023",
+                    "November 08, 2023"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Twitch_Drops/2023-10-11"
+            },
+            {
                 "event": "Nameless Honor 2023-10-11",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
                 "duration": [
@@ -79,6 +92,20 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Market"
+            },
+            {
+                "event": "Planar Infinity",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Event_Planar_Infinity.png/revision/latest/scale-to-width-down/250?cb=20231028065541",
+                "duration": [
+                    "October 27, 2023",
+                    "November 13, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Simulated Universe"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Planar_Infinity"
             }
         ],
         "Upcoming": [],
@@ -175,7 +202,8 @@
                     "September 06, 2023"
                 ],
                 "type": [
-                    "In-Game"
+                    "In-Game",
+                    "Simulated Universe"
                 ],
                 "status": "Permanent",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Universe:_Swarm_Disaster"
