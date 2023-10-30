@@ -124,9 +124,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/The_Peaks_and_Troughs_of_Life"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Overflowing Mastery 2023-10-30",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
@@ -137,10 +135,11 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/2023-10-30"
             }
         ],
+        "Upcoming": [],
         "Permanent": [
             {
                 "event": "Fate Foretold",
