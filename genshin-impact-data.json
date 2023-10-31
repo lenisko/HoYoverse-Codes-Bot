@@ -71,20 +71,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Genshin_Concert/2023_Melodies_of_an_Endless_Journey"
             },
             {
-                "event": "Waterborne Poetry",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/17/Waterborne_Poetry.png/revision/latest/scale-to-width-down/250?cb=20231010040044",
-                "duration": [
-                    "October 12, 2023",
-                    "October 30, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Flagship"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Waterborne_Poetry"
-            },
-            {
                 "event": "Test Run - Wriothesley, Venti, Chongyun, Thoma, Dori",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ec/Test_Run_-_Character_Trial_Event_Wriothesley_Venti_Chongyun_Thoma_Dori.png/revision/latest/scale-to-width-down/250?cb=20231017225944",
                 "duration": [
@@ -97,20 +83,6 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-10-17"
-            },
-            {
-                "event": "Heated Battle Mode: Reinforcements",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/df/Heated_Battle_Mode_2023-10-21.png/revision/latest/scale-to-width-down/250?cb=20231019124410",
-                "duration": [
-                    "October 21, 2023",
-                    "October 30, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Heated Battle Mode"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-10-21"
             },
             {
                 "event": "The Peaks and Troughs of Life",
