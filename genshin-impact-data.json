@@ -238,18 +238,18 @@
     "Codes": {
         "activeCodes": [
             {
-                "code": "Glad Tidings From Afar",
+                "code": "9A97KJNX2NZ9",
                 "server": "All",
                 "rewards": [
                     {
                         "name": "Primogem",
-                        "amount": "40",
+                        "amount": "30",
                         "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
                     }
                 ],
                 "duration": [
-                    "Discovered: October 20, 2023",
-                    "Valid until: October 28, 2023"
+                    "Discovered: October 31, 2023",
+                    "Valid until: November 2, 2023"
                 ],
                 "isExpired": false
             },
@@ -313,6 +313,22 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "Glad Tidings From Afar",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "40",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 20, 2023",
+                    "Expired: October 28, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "TTQNCFMADSWH",
                 "server": "All",
