@@ -111,7 +111,70 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/2023-10-30"
             }
         ],
-        "Upcoming": [],
+        "Upcoming": [
+            {
+                "event": "Graph Adversarial Technology Experiment Log",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Graph_Adversarial_Technology_Experiment_Log.png/revision/latest/scale-to-width-down/250?cb=20231103131444",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Graph_Adversarial_Technology_Experiment_Log"
+            },
+            {
+                "event": "Misty Dungeon: Realm of Water",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Misty_Dungeon_Realm_of_Water.png/revision/latest/scale-to-width-down/250?cb=20231103131449",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Trial"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/4.2"
+            },
+            {
+                "event": "Lil' Fungi's Fun-Tastic Fiesta",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Lil%27_Fungi%27s_Fun-Tastic_Fiesta.png/revision/latest/scale-to-width-down/250?cb=20231103131447",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Lil%27_Fungi%27s_Fun-Tastic_Fiesta"
+            },
+            {
+                "event": "Ley Line Overflow 4.2",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Ley_Line_Overflow.png/revision/latest/scale-to-width-down/250?cb=20220703201328",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/4.2"
+            },
+            {
+                "event": "Thelxie's Fantastic Adventures",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Thelxie%27s_Fantastic_Adventures.png/revision/latest/scale-to-width-down/250?cb=20231103131451",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Flagship"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Thelxie%27s_Fantastic_Adventures"
+            }
+        ],
         "Permanent": [
             {
                 "event": "Fate Foretold",
@@ -238,18 +301,65 @@
     "Codes": {
         "activeCodes": [
             {
-                "code": "9A97KJNX2NZ9",
+                "code": "VA97KJNF24UV",
                 "server": "All",
                 "rewards": [
                     {
                         "name": "Primogem",
-                        "amount": "30",
+                        "amount": "100",
                         "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "10",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
                     }
                 ],
                 "duration": [
-                    "Discovered: October 31, 2023",
-                    "Valid until: November 2, 2023"
+                    "Discovered: November 3, 2023",
+                    "Valid until: November 4, 2023"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "NTQP2KPEJMUH",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Hero's Wit",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 3, 2023",
+                    "Valid until: November 4, 2023"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "9T96KJNE2LVM",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mora",
+                        "amount": "50,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 3, 2023",
+                    "Valid until: November 4, 2023"
                 ],
                 "isExpired": false
             },
@@ -313,6 +423,22 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "9A97KJNX2NZ9",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "30",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    }
+                ],
+                "duration": [
+                    "Discovered: October 31, 2023",
+                    "Expired: November 2, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "Glad Tidings From Afar",
                 "server": "All",
