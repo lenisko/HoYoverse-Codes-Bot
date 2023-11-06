@@ -108,7 +108,20 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-10-27"
             }
         ],
-        "Upcoming": [],
+        "Upcoming": [
+            {
+                "event": "Garden of Plenty 1.5",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Event_Garden_of_Plenty.png/revision/latest/scale-to-width-down/250?cb=20230720105834",
+                "duration": [
+                    ""
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Garden_of_Plenty/1.5"
+            }
+        ],
         "Permanent": [
             {
                 "event": "Honkai: Star Rail Daily Check-in",
