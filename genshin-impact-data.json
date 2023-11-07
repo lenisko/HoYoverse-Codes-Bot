@@ -30,19 +30,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-09-27"
             },
             {
-                "event": "Hilichurls' Treasure Trove",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/94/Hilichurls%27_Treasure_Trove_3.png/revision/latest/scale-to-width-down/250?cb=20230816173112",
-                "duration": [
-                    "September 27, 2023",
-                    "November 05, 2023"
-                ],
-                "type": [
-                    "Web"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Hilichurls%27_Treasure_Trove/2023-09-27"
-            },
-            {
                 "event": "Treasures Along the Road: A Thank-You Gift",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Treasures_Along_the_Road_A_Thank-You_Gift.png/revision/latest/scale-to-width-down/250?cb=20230923170742",
                 "duration": [
@@ -113,10 +100,25 @@
         ],
         "Upcoming": [
             {
+                "event": "Misty Dungeon: Realm of Water",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Misty_Dungeon_Realm_of_Water.png/revision/latest/scale-to-width-down/250?cb=20231103131449",
+                "duration": [
+                    "November 09, 2023",
+                    "November 20, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Trial"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/2023-11-09"
+            },
+            {
                 "event": "Graph Adversarial Technology Experiment Log",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Graph_Adversarial_Technology_Experiment_Log.png/revision/latest/scale-to-width-down/250?cb=20231103131444",
                 "duration": [
-                    " TBA "
+                    "November 17, 2023",
+                    "November 27, 2023"
                 ],
                 "type": [
                     "In-Game"
@@ -125,29 +127,18 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Graph_Adversarial_Technology_Experiment_Log"
             },
             {
-                "event": "Misty Dungeon: Realm of Water",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Misty_Dungeon_Realm_of_Water.png/revision/latest/scale-to-width-down/250?cb=20231103131449",
+                "event": "Thelxie's Fantastic Adventures",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Thelxie%27s_Fantastic_Adventures.png/revision/latest/scale-to-width-down/250?cb=20231103131451",
                 "duration": [
-                    " TBA "
+                    "November 23, 2023",
+                    "December 11, 2023"
                 ],
                 "type": [
                     "In-Game",
-                    "Trial"
+                    "Flagship"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/4.2"
-            },
-            {
-                "event": "Lil' Fungi's Fun-Tastic Fiesta",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Lil%27_Fungi%27s_Fun-Tastic_Fiesta.png/revision/latest/scale-to-width-down/250?cb=20231103131447",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Lil%27_Fungi%27s_Fun-Tastic_Fiesta"
+                "page": "https://genshin-impact.fandom.com/wiki/Thelxie%27s_Fantastic_Adventures"
             },
             {
                 "event": "Ley Line Overflow 4.2",
@@ -162,17 +153,16 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/4.2"
             },
             {
-                "event": "Thelxie's Fantastic Adventures",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Thelxie%27s_Fantastic_Adventures.png/revision/latest/scale-to-width-down/250?cb=20231103131451",
+                "event": "Lil' Fungi's Fun-Tastic Fiesta",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Lil%27_Fungi%27s_Fun-Tastic_Fiesta.png/revision/latest/scale-to-width-down/250?cb=20231103131447",
                 "duration": [
                     " TBA "
                 ],
                 "type": [
-                    "In-Game",
-                    "Flagship"
+                    "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Thelxie%27s_Fantastic_Adventures"
+                "page": "https://genshin-impact.fandom.com/wiki/Lil%27_Fungi%27s_Fun-Tastic_Fiesta"
             }
         ],
         "Permanent": [
