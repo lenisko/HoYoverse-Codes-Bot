@@ -2,20 +2,6 @@
     "Events": {
         "Current": [
             {
-                "event": "Falling Star",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/4/44/Battle_Pass_Falling_Star.png/revision/latest/scale-to-width-down/250?cb=20230925041704",
-                "duration": [
-                    "September 27, 2023",
-                    "November 06, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Battle Pass"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Falling_Star"
-            },
-            {
                 "event": "The Forge Realm's Temper: Clever Strategems",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/The_Forge_Realm%27s_Temper_Clever_Strategems.png/revision/latest/scale-to-width-down/250?cb=20230925041706",
                 "duration": [
@@ -72,33 +58,49 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-10-17"
             },
             {
-                "event": "The Peaks and Troughs of Life",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/The_Peaks_and_Troughs_of_Life.png/revision/latest/scale-to-width-down/250?cb=20231022102634",
+                "event": "VIP Ace Detective",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/69/VIP_Ace_Detective.png/revision/latest/scale-to-width-down/250?cb=20231106045002",
                 "duration": [
-                    "October 23, 2023",
-                    "November 06, 2023"
+                    "November 06, 2023",
+                    "November 12, 2023"
                 ],
                 "type": [
-                    "In-Game"
+                    "Web",
+                    "Character Release"
                 ],
                 "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/The_Peaks_and_Troughs_of_Life"
-            },
-            {
-                "event": "Overflowing Mastery 2023-10-30",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
-                "duration": [
-                    "October 30, 2023",
-                    "November 06, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/2023-10-30"
+                "page": "https://genshin-impact.fandom.com/wiki/VIP_Ace_Detective"
             }
         ],
         "Upcoming": [
+            {
+                "event": "Whirling Waltz",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Battle_Pass_Whirling_Waltz.png/revision/latest/scale-to-width-down/250?cb=20231106042149",
+                "duration": [
+                    "November 08, 2023",
+                    "December 18, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Battle Pass"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Whirling_Waltz"
+            },
+            {
+                "event": "The Forge Realm's Temper: Endless Swarm",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/The_Forge_Realm%27s_Temper_Endless_Swarm_2023-11-08.png/revision/latest/scale-to-width-down/250?cb=20231106042108",
+                "duration": [
+                    "November 08, 2023",
+                    "December 20, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "The Forge Realm's Temper"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-11-08"
+            },
             {
                 "event": "Misty Dungeon: Realm of Water",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Misty_Dungeon_Realm_of_Water.png/revision/latest/scale-to-width-down/250?cb=20231103131449",
@@ -291,65 +293,23 @@
     "Codes": {
         "activeCodes": [
             {
-                "code": "VA97KJNF24UV",
+                "code": "EA8RWDMBVRTR",
                 "server": "All",
                 "rewards": [
                     {
                         "name": "Primogem",
-                        "amount": "100",
+                        "amount": "60",
                         "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
                     },
                     {
-                        "name": "Mystic Enhancement Ore",
-                        "amount": "10",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
-                    }
-                ],
-                "duration": [
-                    "Discovered: November 3, 2023",
-                    "Valid until: November 4, 2023"
-                ],
-                "isExpired": false
-            },
-            {
-                "code": "NTQP2KPEJMUH",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "100",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Hero's Wit",
+                        "name": "Adventurer's Experience",
                         "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
                     }
                 ],
                 "duration": [
-                    "Discovered: November 3, 2023",
-                    "Valid until: November 4, 2023"
-                ],
-                "isExpired": false
-            },
-            {
-                "code": "9T96KJNE2LVM",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "100",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Mora",
-                        "amount": "50,000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    }
-                ],
-                "duration": [
-                    "Discovered: November 3, 2023",
-                    "Valid until: November 4, 2023"
+                    "Discovered: November 7, 2023",
+                    ""
                 ],
                 "isExpired": false
             },
@@ -413,6 +373,69 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "VA97KJNF24UV",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "10",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 3, 2023",
+                    "Expired: November 4, 2023"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "NTQP2KPEJMUH",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Hero's Wit",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 3, 2023",
+                    "Expired: November 4, 2023"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "9T96KJNE2LVM",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mora",
+                        "amount": "50,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 3, 2023",
+                    "Expired: November 4, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "9A97KJNX2NZ9",
                 "server": "All",
