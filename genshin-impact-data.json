@@ -70,9 +70,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-11-08"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Misty Dungeon: Realm of Water",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Misty_Dungeon_Realm_of_Water.png/revision/latest/scale-to-width-down/250?cb=20231107044041",
@@ -84,9 +82,11 @@
                     "In-Game",
                     "Trial"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/2023-11-09"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Graph Adversarial Technology Experiment Log",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Graph_Adversarial_Technology_Experiment_Log.png/revision/latest/scale-to-width-down/250?cb=20231103131444",
