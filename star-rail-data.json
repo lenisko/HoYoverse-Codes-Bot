@@ -13,35 +13,36 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Prime_Gaming/2023-05-17"
-            },
-            {
-                "event": "Gift of Odyssey 2023-10-11",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Event_Gift_of_Odyssey_2023-10-11.png/revision/latest/scale-to-width-down/250?cb=20231030010041",
-                "duration": [
-                    "October 11, 2023",
-                    "November 14, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-10-11"
-            },
-            {
-                "event": "Aptitude Showcase - Topaz and Numby, Seele, Guinaifen, Luka, Sushang",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5e/Aptitude_Showcase_-_Topaz%2C_Seele%2C_Guinaifen%2C_Luka%2C_Sushang.png/revision/latest/scale-to-width-down/250?cb=20231028182746",
-                "duration": [
-                    "October 27, 2023",
-                    "November 14, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-10-27"
             }
         ],
         "Upcoming": [
+            {
+                "event": "A Foxian Tale of the Haunted",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Event_A_Foxian_Tale_of_the_Haunted.png/revision/latest/scale-to-width-down/250?cb=20231114052655",
+                "duration": [
+                    "November 15, 2023",
+                    "December 25, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/A_Foxian_Tale_of_the_Haunted"
+            },
+            {
+                "event": "Nameless Honor 2023-11-15",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
+                "duration": [
+                    "November 15, 2023",
+                    "December 25, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Nameless Honor"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-11-15"
+            },
             {
                 "event": "Garden of Plenty 1.5",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Event_Garden_of_Plenty.png/revision/latest/scale-to-width-down/250?cb=20230720105834",
