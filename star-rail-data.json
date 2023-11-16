@@ -2,21 +2,6 @@
     "Events": {
         "Current": [
             {
-                "event": "Prime Gaming 2023-05-17",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Event_Prime_Gaming_2023-05-17.png/revision/latest/scale-to-width-down/250?cb=20230518222424",
-                "duration": [
-                    "May 17, 2023",
-                    "November 15, 2023"
-                ],
-                "type": [
-                    "Web"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Prime_Gaming/2023-05-17"
-            }
-        ],
-        "Upcoming": [
-            {
                 "event": "A Foxian Tale of the Haunted",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Event_A_Foxian_Tale_of_the_Haunted.png/revision/latest/scale-to-width-down/250?cb=20231114052655",
                 "duration": [
@@ -26,7 +11,7 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/A_Foxian_Tale_of_the_Haunted"
             },
             {
@@ -40,8 +25,22 @@
                     "In-Game",
                     "Nameless Honor"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-11-15"
+            }
+        ],
+        "Upcoming": [
+            {
+                "event": "Aptitude Showcase - Huohuo, Dan Heng, Arlan, Serval",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/43/Aptitude_Showcase_-_Huohuo%2C_Dan_Heng%2C_Arlan%2C_Serval.png/revision/latest/scale-to-width-down/250?cb=20231115034853",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-11-15"
             },
             {
                 "event": "Garden of Plenty 1.5",
@@ -159,6 +158,27 @@
     },
     "Codes": {
         "activeCodes": [
+            {
+                "code": "5S9BND25CRBK",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Stellar Jade",
+                        "amount": "50",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Stellar_Jade.png/revision/latest/scale-to-width-down/30?cb=20230722074903"
+                    },
+                    {
+                        "name": "Credit",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 15, 2023",
+                    "Valid until: Unknown</td"
+                ],
+                "isExpired": false
+            },
             {
                 "code": "KBQBEP3L8823",
                 "server": "All",
