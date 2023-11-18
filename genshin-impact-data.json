@@ -84,9 +84,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/2023-11-09"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Graph Adversarial Technology Experiment Log",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Graph_Adversarial_Technology_Experiment_Log.png/revision/latest/scale-to-width-down/250?cb=20231115040113",
@@ -97,9 +95,11 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Graph_Adversarial_Technology_Experiment_Log"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Thelxie's Fantastic Adventures",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Thelxie%27s_Fantastic_Adventures.png/revision/latest/scale-to-width-down/250?cb=20231103131451",
