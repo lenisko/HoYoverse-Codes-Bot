@@ -31,6 +31,18 @@
         ],
         "Upcoming": [
             {
+                "event": "Realm of the Strange",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Event_Realm_of_the_Strange.png/revision/latest/scale-to-width-down/250?cb=20231119173725",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Realm_of_the_Strange"
+            },
+            {
                 "event": "Aptitude Showcase - Huohuo, Dan Heng, Arlan, Serval",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/43/Aptitude_Showcase_-_Huohuo%2C_Dan_Heng%2C_Arlan%2C_Serval.png/revision/latest/scale-to-width-down/250?cb=20231115034853",
                 "duration": [
