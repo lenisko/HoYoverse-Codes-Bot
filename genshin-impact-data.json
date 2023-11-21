@@ -72,20 +72,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Discover_Teyvat"
             },
             {
-                "event": "Misty Dungeon: Realm of Water",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/8b/Misty_Dungeon_Realm_of_Water.png/revision/latest/scale-to-width-down/250?cb=20231107044041",
-                "duration": [
-                    "November 09, 2023",
-                    "November 20, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Trial"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Misty_Dungeon/2023-11-09"
-            },
-            {
                 "event": "Graph Adversarial Technology Experiment Log",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/3d/Graph_Adversarial_Technology_Experiment_Log.png/revision/latest/scale-to-width-down/250?cb=20231115040113",
                 "duration": [
@@ -93,7 +79,8 @@
                     "November 27, 2023"
                 ],
                 "type": [
-                    "In-Game"
+                    "In-Game",
+                    "Kamera"
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Graph_Adversarial_Technology_Experiment_Log"
