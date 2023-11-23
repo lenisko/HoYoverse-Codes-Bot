@@ -192,37 +192,6 @@
                 "isExpired": false
             },
             {
-                "code": "SOULN1Y30I",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Lost Gold Fragment",
-                        "amount": "3",
-                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/db/Item_Lost_Gold_Fragment.png/revision/latest/scale-to-width-down/30?cb=20230505041219"
-                    },
-                    {
-                        "name": "Energy Drink",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Item_Energy_Drink.png/revision/latest/scale-to-width-down/30?cb=20230502182126"
-                    },
-                    {
-                        "name": "Startaro Bubble",
-                        "amount": "2",
-                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ed/Item_Startaro_Bubble.png/revision/latest/scale-to-width-down/24?cb=20230904221258"
-                    },
-                    {
-                        "name": "Credit",
-                        "amount": "10000",
-                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
-                    }
-                ],
-                "duration": [
-                    "Discovered: November 15, 2023",
-                    "Valid until: November 21, 2023</td"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "KBQBEP3L8823",
                 "server": "All",
                 "rewards": [
@@ -303,6 +272,37 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "SOULN1Y30I",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Lost Gold Fragment",
+                        "amount": "3",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/db/Item_Lost_Gold_Fragment.png/revision/latest/scale-to-width-down/30?cb=20230505041219"
+                    },
+                    {
+                        "name": "Energy Drink",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Item_Energy_Drink.png/revision/latest/scale-to-width-down/30?cb=20230502182126"
+                    },
+                    {
+                        "name": "Startaro Bubble",
+                        "amount": "2",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ed/Item_Startaro_Bubble.png/revision/latest/scale-to-width-down/24?cb=20230904221258"
+                    },
+                    {
+                        "name": "Credit",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 15, 2023",
+                    "Expired: November 21, 2023</td"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "JB9BE7K5RQY3",
                 "server": "All",
