@@ -70,9 +70,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Graph_Adversarial_Technology_Experiment_Log"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Thelxie's Fantastic Adventures",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Thelxie%27s_Fantastic_Adventures.png/revision/latest/scale-to-width-down/250?cb=20231122023352",
@@ -84,8 +82,24 @@
                     "In-Game",
                     "Flagship"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Thelxie%27s_Fantastic_Adventures"
+            }
+        ],
+        "Upcoming": [
+            {
+                "event": "Heated Battle Mode: Tactical Formation",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Heated_Battle_Mode_2023-11-25.png/revision/latest/scale-to-width-down/250?cb=20231123040329",
+                "duration": [
+                    "November 25, 2023",
+                    "December 11, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Heated Battle Mode"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-11-25"
             },
             {
                 "event": "Ley Line Overflow 4.2",
