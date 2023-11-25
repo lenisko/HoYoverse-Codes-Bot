@@ -102,28 +102,30 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-11-25"
             },
             {
-                "event": "Ley Line Overflow 4.2",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Ley_Line_Overflow.png/revision/latest/scale-to-width-down/250?cb=20220703201328",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/4.2"
-            },
-            {
                 "event": "Lil' Fungi's Fun-Tastic Fiesta",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Lil%27_Fungi%27s_Fun-Tastic_Fiesta.png/revision/latest/scale-to-width-down/250?cb=20231103131447",
                 "duration": [
-                    " TBA "
+                    "December 06, 2023",
+                    "December 18, 2023"
                 ],
                 "type": [
                     "In-Game"
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/Lil%27_Fungi%27s_Fun-Tastic_Fiesta"
+            },
+            {
+                "event": "Ley Line Overflow 2023-12-11",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Ley_Line_Overflow.png/revision/latest/scale-to-width-down/250?cb=20220703201328",
+                "duration": [
+                    "December 11, 2023",
+                    "December 18, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2023-12-11"
             }
         ],
         "Permanent": [
