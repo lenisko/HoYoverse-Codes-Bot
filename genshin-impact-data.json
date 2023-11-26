@@ -84,9 +84,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Thelxie%27s_Fantastic_Adventures"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Heated Battle Mode: Tactical Formation",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/86/Heated_Battle_Mode_2023-11-25.png/revision/latest/scale-to-width-down/250?cb=20231123040329",
@@ -98,9 +96,11 @@
                     "In-Game",
                     "Heated Battle Mode"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2023-11-25"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Lil' Fungi's Fun-Tastic Fiesta",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Lil%27_Fungi%27s_Fun-Tastic_Fiesta.png/revision/latest/scale-to-width-down/250?cb=20231103131447",
