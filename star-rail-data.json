@@ -192,6 +192,22 @@
                 "isExpired": false
             },
             {
+                "code": "US9SND24U8FB",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Dry Emergency Light",
+                        "amount": "3",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Item_Dry_Emergency_Light.png/revision/latest/scale-to-width-down/30?cb=20231203024440"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 19, 2023",
+                    "Valid until: Unknown</td"
+                ],
+                "isExpired": false
+            },
+            {
                 "code": "ST9T6DKLVRGX",
                 "server": "All",
                 "rewards": [
@@ -390,6 +406,22 @@
                         "name": "Credit",
                         "amount": "10000",
                         "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d9/Item_Credit.png/revision/latest/scale-to-width-down/30?cb=20230722075044"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 15, 2023",
+                    "Expired: November 21, 2023</td"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "JT8BPUJMURUP",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Sweet Dreams Soda",
+                        "amount": "3",
+                        "imageURL": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4c/Item_Sweet_Dreams_Soda.png/revision/latest/scale-to-width-down/30?cb=20231203024728"
                     }
                 ],
                 "duration": [
