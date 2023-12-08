@@ -40,6 +40,19 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Stellar_Shadowseeker"
+            },
+            {
+                "event": "Boulder Town Martial Exhibition",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Event_Boulder_Town_Martial_Exhibition.png/revision/latest/scale-to-width-down/250?cb=20231206191441",
+                "duration": [
+                    "December 06, 2023",
+                    "December 25, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Boulder_Town_Martial_Exhibition"
             }
         ],
         "Upcoming": [
@@ -54,18 +67,6 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Realm_of_the_Strange"
-            },
-            {
-                "event": "Aptitude Showcase - Huohuo, Dan Heng, Arlan, Serval",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/43/Aptitude_Showcase_-_Huohuo%2C_Dan_Heng%2C_Arlan%2C_Serval.png/revision/latest/scale-to-width-down/250?cb=20231115034853",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-11-15"
             },
             {
                 "event": "Garden of Plenty 1.5",
