@@ -57,16 +57,17 @@
         ],
         "Upcoming": [
             {
-                "event": "Realm of the Strange",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Event_Realm_of_the_Strange.png/revision/latest/scale-to-width-down/250?cb=20231119173725",
+                "event": "All-Stars Celebration",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Event_All-Stars_Celebration.png/revision/latest/scale-to-width-down/250?cb=20231208052434",
                 "duration": [
-                    " TBA "
+                    "December 09, 2023",
+                    "December 27, 2023"
                 ],
                 "type": [
                     "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Realm_of_the_Strange"
+                "page": "https://honkai-star-rail.fandom.com/wiki/All-Stars_Celebration"
             },
             {
                 "event": "Garden of Plenty 1.5",

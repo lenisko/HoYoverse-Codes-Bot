@@ -97,6 +97,21 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Lil%27_Fungi%27s_Fun-Tastic_Fiesta"
+            },
+            {
+                "event": "A Thank-You Letter to All Travelers (The Game Awards Best Ongoing 2023)",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c4/A_Thank-You_Letter_to_All_Travelers.png/revision/latest/scale-to-width-down/250?cb=20211203134845",
+                "duration": [
+                    "December 09, 2023",
+                    "December 12, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Mail",
+                    "Celebration"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/A_Thank-You_Letter_to_All_Travelers/2023-12-09"
             }
         ],
         "Upcoming": [
@@ -112,6 +127,67 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2023-12-11"
+            },
+            {
+                "event": "Lost Riches 4.3",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Lost_Riches_4.3.png/revision/latest/scale-to-width-down/250?cb=20231208125658",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Lost_Riches/4.3"
+            },
+            {
+                "event": "Marvelous Merchandise 4.3",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Marvelous_Merchandise_2022-11-28.png/revision/latest/scale-to-width-down/250?cb=20221126042952",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/4.3"
+            },
+            {
+                "event": "Dance of Resolute Will",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Dance_of_Resolute_Will.png/revision/latest/scale-to-width-down/250?cb=20231208125656",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Dance_of_Resolute_Will"
+            },
+            {
+                "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20231208125654",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
+            },
+            {
+                "event": "Roses and Muskets",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Roses_and_Muskets.png/revision/latest/scale-to-width-down/250?cb=20231208125700",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Flagship"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Roses_and_Muskets"
             }
         ],
         "Permanent": [
@@ -239,6 +315,69 @@
     },
     "Codes": {
         "activeCodes": [
+            {
+                "code": "8BQ9CMMVS5PM",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mora",
+                        "amount": "50 000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 8, 2023",
+                    "Valid until: December 9, 2023"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "UBRQC4MCT4PZ",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Adventurer's Experience",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 8, 2023",
+                    "Valid until: December 9, 2023"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "RS99D5LVTM6V",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "10",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 8, 2023",
+                    "Valid until: December 9, 2023"
+                ],
+                "isExpired": false
+            },
             {
                 "code": "EA8RWDMBVRTR",
                 "server": "All",
