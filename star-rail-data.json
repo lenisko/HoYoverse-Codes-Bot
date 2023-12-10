@@ -53,9 +53,20 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Boulder_Town_Martial_Exhibition"
-            }
-        ],
-        "Upcoming": [
+            },
+            {
+                "event": "Aptitude Showcase - Argenti, Silver Wolf, Hanya, Lynx, Asta",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Aptitude_Showcase_-_Argenti%2C_Silver_Wolf%2C_Hanya%2C_Lynx%2C_Asta.png/revision/latest/scale-to-width-down/250?cb=20231209025832",
+                "duration": [
+                    "December 06, 2023",
+                    "December 26, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-12-06"
+            },
             {
                 "event": "All-Stars Celebration",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Event_All-Stars_Celebration.png/revision/latest/scale-to-width-down/250?cb=20231208052434",
@@ -66,9 +77,11 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/All-Stars_Celebration"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Garden of Plenty 1.5",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/36/Event_Garden_of_Plenty.png/revision/latest/scale-to-width-down/250?cb=20230720105834",

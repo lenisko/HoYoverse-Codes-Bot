@@ -129,6 +129,20 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2023-12-11"
             },
             {
+                "event": "GENSHIN CONCERT 2023 \"Melodies of an Endless Journey\" Scenic Vistas",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/GENSHIN_CONCERT_2023_-_Melodies_of_an_Endless_Journey_Scenic_Vistas.png/revision/latest/scale-to-width-down/250?cb=20231209060613",
+                "duration": [
+                    "December 22, 2023",
+                    "December 22, 2023"
+                ],
+                "type": [
+                    "Web",
+                    "Live"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Genshin_Concert/2023_Melodies_of_an_Endless_Journey_Scenic_Vistas"
+            },
+            {
                 "event": "Lost Riches 4.3",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Lost_Riches_4.3.png/revision/latest/scale-to-width-down/250?cb=20231208125658",
                 "duration": [
@@ -316,69 +330,6 @@
     "Codes": {
         "activeCodes": [
             {
-                "code": "8BQ9CMMVS5PM",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "100",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Mora",
-                        "amount": "50 000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    }
-                ],
-                "duration": [
-                    "Discovered: December 8, 2023",
-                    "Valid until: December 9, 2023"
-                ],
-                "isExpired": false
-            },
-            {
-                "code": "UBRQC4MCT4PZ",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "100",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Adventurer's Experience",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
-                    }
-                ],
-                "duration": [
-                    "Discovered: December 8, 2023",
-                    "Valid until: December 9, 2023"
-                ],
-                "isExpired": false
-            },
-            {
-                "code": "RS99D5LVTM6V",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "100",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Mystic Enhancement Ore",
-                        "amount": "10",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
-                    }
-                ],
-                "duration": [
-                    "Discovered: December 8, 2023",
-                    "Valid until: December 9, 2023"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "EA8RWDMBVRTR",
                 "server": "All",
                 "rewards": [
@@ -396,27 +347,6 @@
                 "duration": [
                     "Discovered: November 7, 2023",
                     "Valid until: January 8, 2024"
-                ],
-                "isExpired": false
-            },
-            {
-                "code": "6T8NWE3HD7PD",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "60",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Adventurer's Experience",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
-                    }
-                ],
-                "duration": [
-                    "Discovered: September 26, 2023",
-                    ""
                 ],
                 "isExpired": false
             },
@@ -459,6 +389,90 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "8BQ9CMMVS5PM",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mora",
+                        "amount": "50 000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 8, 2023",
+                    "Expired: December 9, 2023"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "UBRQC4MCT4PZ",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Adventurer's Experience",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 8, 2023",
+                    "Expired: December 9, 2023"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "RS99D5LVTM6V",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "10",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 8, 2023",
+                    "Expired: December 9, 2023"
+                ],
+                "isExpired": true
+            },
+            {
+                "code": "6T8NWE3HD7PD",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "60",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Adventurer's Experience",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
+                    }
+                ],
+                "duration": [
+                    "Discovered: September 26, 2023",
+                    "Expired: December 8, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "YT9L3UFSZXF9YT9L2DWTYWWM",
                 "server": "All",
