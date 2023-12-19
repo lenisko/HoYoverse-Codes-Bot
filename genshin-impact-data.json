@@ -16,20 +16,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Genshin_Concert/2023_Melodies_of_an_Endless_Journey"
             },
             {
-                "event": "Whirling Waltz",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/6/68/Battle_Pass_Whirling_Waltz.png/revision/latest/scale-to-width-down/250?cb=20231106042149",
-                "duration": [
-                    "November 08, 2023",
-                    "December 18, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Battle Pass"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Whirling_Waltz"
-            },
-            {
                 "event": "The Forge Realm's Temper: Endless Swarm",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/e/ef/The_Forge_Realm%27s_Temper_Endless_Swarm_2023-11-08.png/revision/latest/scale-to-width-down/250?cb=20231106042108",
                 "duration": [
@@ -58,19 +44,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2023-11-28"
             },
             {
-                "event": "Lil' Fungi's Fun-Tastic Fiesta",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/24/Lil%27_Fungi%27s_Fun-Tastic_Fiesta.png/revision/latest/scale-to-width-down/250?cb=20231204135945",
-                "duration": [
-                    "December 06, 2023",
-                    "December 18, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Lil%27_Fungi%27s_Fun-Tastic_Fiesta"
-            },
-            {
                 "event": "Macaron Melange",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/c0/Macaron_Melange.png/revision/latest/scale-to-width-down/250?cb=20231215141355",
                 "duration": [
@@ -87,17 +60,59 @@
         ],
         "Upcoming": [
             {
-                "event": "Ley Line Overflow 2023-12-11",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/cc/Ley_Line_Overflow.png/revision/latest/scale-to-width-down/250?cb=20220703201328",
+                "event": "Gazing Up at Eternity, Looking Down at the World",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Gazing_Up_at_Eternity%2C_Looking_Down_at_the_World.png/revision/latest/scale-to-width-down/250?cb=20231218042913",
                 "duration": [
-                    "December 11, 2023",
-                    "December 18, 2023"
+                    "December 20, 2023",
+                    "December 20, 2023"
                 ],
                 "type": [
                     "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Ley_Line_Overflow/2023-12-11"
+                "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
+            },
+            {
+                "event": "Fontinalia",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/56/Battle_Pass_Fontinalia.png/revision/latest/scale-to-width-down/250?cb=20231218042909",
+                "duration": [
+                    "December 20, 2023",
+                    "January 27, 2024"
+                ],
+                "type": [
+                    "In-Game",
+                    "Battle Pass"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Fontinalia"
+            },
+            {
+                "event": "The Forge Realm's Temper: Game of Wits",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/The_Forge_Realm%27s_Temper_Game_of_Wits_2023-12-20.png/revision/latest/scale-to-width-down/250?cb=20231218042911",
+                "duration": [
+                    "December 20, 2023",
+                    "January 31, 2024"
+                ],
+                "type": [
+                    "In-Game",
+                    "The Forge Realm's Temper"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-12-20"
+            },
+            {
+                "event": "Roses and Muskets",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Roses_and_Muskets.png/revision/latest/scale-to-width-down/250?cb=20231208125700",
+                "duration": [
+                    "December 21, 2023",
+                    "January 08, 2024"
+                ],
+                "type": [
+                    "In-Game",
+                    "Flagship"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Roses_and_Muskets"
             },
             {
                 "event": "GENSHIN CONCERT 2023 \"Melodies of an Endless Journey\" Scenic Vistas",
@@ -114,28 +129,17 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Genshin_Concert/2023_Melodies_of_an_Endless_Journey_Scenic_Vistas"
             },
             {
-                "event": "Lost Riches 4.3",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/be/Lost_Riches_4.3.png/revision/latest/scale-to-width-down/250?cb=20231208125658",
+                "event": "Lost Riches 2024-01-02",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Lost_Riches_2024-01-02.png/revision/latest/scale-to-width-down/250?cb=20231208125658",
                 "duration": [
-                    " TBA "
+                    "January 02, 2024",
+                    "January 15, 2024"
                 ],
                 "type": [
                     "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Lost_Riches/4.3"
-            },
-            {
-                "event": "Marvelous Merchandise 4.3",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Marvelous_Merchandise_2022-11-28.png/revision/latest/scale-to-width-down/250?cb=20221126042952",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/4.3"
+                "page": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2024-01-02"
             },
             {
                 "event": "Dance of Resolute Will",
@@ -162,17 +166,16 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
             },
             {
-                "event": "Roses and Muskets",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Roses_and_Muskets.png/revision/latest/scale-to-width-down/250?cb=20231208125700",
+                "event": "Marvelous Merchandise 4.3",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Marvelous_Merchandise_2022-11-28.png/revision/latest/scale-to-width-down/250?cb=20221126042952",
                 "duration": [
                     " TBA "
                 ],
                 "type": [
-                    "In-Game",
-                    "Flagship"
+                    "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Roses_and_Muskets"
+                "page": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/4.3"
             }
         ],
         "Permanent": [
