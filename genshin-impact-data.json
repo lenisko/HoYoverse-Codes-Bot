@@ -83,9 +83,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Ancient_Treasures_Unearthed"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Roses and Muskets",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Roses_and_Muskets.png/revision/latest/scale-to-width-down/250?cb=20231219041329",
@@ -97,9 +95,11 @@
                     "In-Game",
                     "Flagship"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Roses_and_Muskets"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "GENSHIN CONCERT 2023 \"Melodies of an Endless Journey\" Scenic Vistas",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/GENSHIN_CONCERT_2023_-_Melodies_of_an_Endless_Journey_Scenic_Vistas.png/revision/latest/scale-to-width-down/250?cb=20231209060613",
@@ -128,18 +128,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2024-01-02"
             },
             {
-                "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20231208125654",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
-            },
-            {
                 "event": "Dance of Resolute Will",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Dance_of_Resolute_Will.png/revision/latest/scale-to-width-down/250?cb=20231208125656",
                 "duration": [
@@ -150,6 +138,18 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/Dance_of_Resolute_Will"
+            },
+            {
+                "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20231208125654",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
             },
             {
                 "event": "Marvelous Merchandise 4.3",
