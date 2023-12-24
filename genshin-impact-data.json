@@ -97,9 +97,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Roses_and_Muskets"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "GENSHIN CONCERT 2023 \"Melodies of an Endless Journey\" Scenic Vistas",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/3/36/GENSHIN_CONCERT_2023_-_Melodies_of_an_Endless_Journey_Scenic_Vistas.png/revision/latest/scale-to-width-down/250?cb=20231209060613",
@@ -111,9 +109,11 @@
                     "Web",
                     "Live"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Genshin_Concert/2023_Melodies_of_an_Endless_Journey_Scenic_Vistas"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Lost Riches 2024-01-02",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Lost_Riches_2024-01-02.png/revision/latest/scale-to-width-down/250?cb=20231208125658",
