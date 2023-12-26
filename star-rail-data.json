@@ -2,33 +2,6 @@
     "Events": {
         "Current": [
             {
-                "event": "A Foxian Tale of the Haunted",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Event_A_Foxian_Tale_of_the_Haunted.png/revision/latest/scale-to-width-down/250?cb=20231114052655",
-                "duration": [
-                    "November 15, 2023",
-                    "December 25, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/A_Foxian_Tale_of_the_Haunted"
-            },
-            {
-                "event": "Nameless Honor 2023-11-15",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
-                "duration": [
-                    "November 15, 2023",
-                    "December 25, 2023"
-                ],
-                "type": [
-                    "In-Game",
-                    "Nameless Honor"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-11-15"
-            },
-            {
                 "event": "Gift of Odyssey 2023-11-15",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-11-15.png/revision/latest/scale-to-width-down/250?cb=20231215233414",
                 "duration": [
@@ -40,19 +13,6 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-11-15"
-            },
-            {
-                "event": "Boulder Town Martial Exhibition",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Event_Boulder_Town_Martial_Exhibition.png/revision/latest/scale-to-width-down/250?cb=20231206191441",
-                "duration": [
-                    "December 06, 2023",
-                    "December 25, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Boulder_Town_Martial_Exhibition"
             },
             {
                 "event": "Aptitude Showcase - Argenti, Silver Wolf, Hanya, Lynx, Asta",
