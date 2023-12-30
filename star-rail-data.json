@@ -71,18 +71,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Honkai:_Star_Rail_Daily_Check-in"
             },
             {
-                "event": "Trailblazing Will",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Event_Trailblazing_Will.png/revision/latest/scale-to-width-down/250?cb=20230528143248",
-                "duration": [
-                    "April 26, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Permanent",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Trailblazing_Will"
-            },
-            {
                 "event": "Starkissed Synchrony",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Event_Starkissed_Synchrony.png/revision/latest/scale-to-width-down/250?cb=20230720143547",
                 "duration": [
@@ -93,6 +81,18 @@
                 ],
                 "status": "Permanent",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Starkissed_Synchrony"
+            },
+            {
+                "event": "Trailblazing Will",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Event_Trailblazing_Will.png/revision/latest/scale-to-width-down/250?cb=20230528143248",
+                "duration": [
+                    "April 26, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Trailblazing_Will"
             },
             {
                 "event": "Turquoise's Reverie",
@@ -154,6 +154,19 @@
                 ],
                 "status": "Permanent",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Universe:_Swarm_Disaster"
+            },
+            {
+                "event": "Simulated Universe: Gold and Gears",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Event_Simulated_Universe_Gold_and_Gears.png/revision/latest/scale-to-width-down/250?cb=20231226234147",
+                "duration": [
+                    "December 27, 2023"
+                ],
+                "type": [
+                    "In-Game",
+                    "Simulated Universe"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Universe:_Gold_and_Gears"
             }
         ]
     },

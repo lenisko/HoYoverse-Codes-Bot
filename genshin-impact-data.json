@@ -71,6 +71,19 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
             },
             {
+                "event": "Twitch Drops 2023-12-20",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Twitch_Drops_-_Watch_Livestreams_to_Claim_Rewards.png/revision/latest/scale-to-width-down/250?cb=20220625145522",
+                "duration": [
+                    "December 20, 2023",
+                    "January 09, 2024"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Twitch_Drops/2023-12-20"
+            },
+            {
                 "event": "Ancient Treasures Unearthed",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Ancient_Treasures_Unearthed.jpg/revision/latest/scale-to-width-down/250?cb=20231220115508",
                 "duration": [
