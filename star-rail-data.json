@@ -2,6 +2,19 @@
     "Events": {
         "Current": [
             {
+                "event": "Aptitude Showcase - Ruan Mei, Blade, Xueyi, March 7th, Tingyun",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1a/Aptitude_Showcase_-_Ruan_Mei%2C_Blade%2C_Xueyi%2C_March_7th%2C_Tingyun.png/revision/latest/scale-to-width-down/250?cb=20231227042229",
+                "duration": [
+                    "December 27, 2023",
+                    "January 17, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase/2023-12-27"
+            },
+            {
                 "event": "Critter Pick",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Event_Critter_Pick.png/revision/latest/scale-to-width-down/250?cb=20231226234148",
                 "duration": [
@@ -13,6 +26,19 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Critter_Pick"
+            },
+            {
+                "event": "Gift of Odyssey 2023-12-27",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
+                "duration": [
+                    "December 27, 2023",
+                    "February 05, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
             },
             {
                 "event": "Nameless Honor 2023-12-27",
@@ -29,17 +55,17 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-12-27"
             },
             {
-                "event": "Gift of Odyssey 2023-12-27",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
+                "event": "Fable of the Stars",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Event_Fables_of_the_Stars.png/revision/latest/scale-to-width-down/250?cb=20231230050217",
                 "duration": [
-                    "December 27, 2023",
-                    "February 05, 2024"
+                    "December 30, 2023",
+                    "January 05, 2024"
                 ],
                 "type": [
-                    "In-Game"
+                    "Web"
                 ],
                 "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
+                "page": "https://honkai-star-rail.fandom.com/wiki/Fable_of_the_Stars"
             }
         ],
         "Upcoming": [
