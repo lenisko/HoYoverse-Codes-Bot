@@ -434,7 +434,9 @@
                     "Valid: (indefinite)</td"
                 ],
                 "isExpired": false
-            },
+            }
+        ],
+        "expiredCodes": [
             {
                 "code": "HoYoFEST 2023",
                 "server": "All",
@@ -447,12 +449,10 @@
                 ],
                 "duration": [
                     "Discovered: July 10, 2023",
-                    "Valid until: December 31, 2023</td"
+                    "Expired: December 31, 2023</td"
                 ],
-                "isExpired": false
-            }
-        ],
-        "expiredCodes": [
+                "isExpired": true
+            },
             {
                 "code": "VA8APU34C8C3",
                 "server": "All",
