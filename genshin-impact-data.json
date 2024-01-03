@@ -44,6 +44,19 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Fontinalia"
             },
             {
+                "event": "Gazing Up at Eternity, Looking Down at the World",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Gazing_Up_at_Eternity%2C_Looking_Down_at_the_World.png/revision/latest/scale-to-width-down/250?cb=20231218042913",
+                "duration": [
+                    "December 20, 2023",
+                    "January 31, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
+            },
+            {
                 "event": "The Forge Realm's Temper: Game of Wits",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/The_Forge_Realm%27s_Temper_Game_of_Wits_2023-12-20.png/revision/latest/scale-to-width-down/250?cb=20231218042911",
                 "duration": [
@@ -56,19 +69,6 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-12-20"
-            },
-            {
-                "event": "Gazing Up at Eternity, Looking Down at the World",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Gazing_Up_at_Eternity%2C_Looking_Down_at_the_World.png/revision/latest/scale-to-width-down/250?cb=20231218042913",
-                "duration": [
-                    "December 20, 2023",
-                    "January 31, 2024"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
             },
             {
                 "event": "Twitch Drops 2023-12-20",
@@ -137,9 +137,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/A_Little_Stroll_Backstage"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Lost Riches 2024-01-02",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Lost_Riches_2024-01-02.png/revision/latest/scale-to-width-down/250?cb=20231231042336",
@@ -150,8 +148,22 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2024-01-02"
+            }
+        ],
+        "Upcoming": [
+            {
+                "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20231208125654",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
             },
             {
                 "event": "Dance of Resolute Will",
@@ -164,18 +176,6 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/Dance_of_Resolute_Will"
-            },
-            {
-                "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20231208125654",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
             },
             {
                 "event": "Marvelous Merchandise 4.3",
