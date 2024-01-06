@@ -41,19 +41,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Critter_Pick"
             },
             {
-                "event": "Gift of Odyssey 2023-12-27",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
-                "duration": [
-                    "December 27, 2023",
-                    "February 05, 2024"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
-            },
-            {
                 "event": "Nameless Honor 2023-12-27",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
                 "duration": [
@@ -68,17 +55,17 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-12-27"
             },
             {
-                "event": "Fable of the Stars",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Event_Fables_of_the_Stars.png/revision/latest/scale-to-width-down/250?cb=20231230050217",
+                "event": "Gift of Odyssey 2023-12-27",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
                 "duration": [
-                    "December 30, 2023",
-                    "January 05, 2024"
+                    "December 27, 2023",
+                    "February 05, 2024"
                 ],
                 "type": [
-                    "Web"
+                    "In-Game"
                 ],
                 "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Fable_of_the_Stars"
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
             }
         ],
         "Upcoming": [

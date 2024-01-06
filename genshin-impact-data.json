@@ -167,10 +167,11 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
             },
             {
-                "event": "Marvelous Merchandise 4.3",
+                "event": "Marvelous Merchandise 2024-01-22",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Marvelous_Merchandise_2022-11-28.png/revision/latest/scale-to-width-down/250?cb=20221126042952",
                 "duration": [
-                    " TBA "
+                    "January 22, 2024",
+                    "January 29, 2024"
                 ],
                 "type": [
                     "In-Game"
@@ -419,22 +420,6 @@
                 "isExpired": false
             },
             {
-                "code": "HoYoFEST 2023",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Mora",
-                        "amount": "20,000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    }
-                ],
-                "duration": [
-                    "Discovered: July 10, 2023",
-                    "Valid until: December 31, 2023"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "GENSHINGIFT",
                 "server": "All",
                 "rewards": [
@@ -457,6 +442,22 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "HoYoFEST 2023",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "20,000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    }
+                ],
+                "duration": [
+                    "Discovered: July 10, 2023",
+                    "Expired: December 31, 2023"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "8BQ9CMMVS5PM",
                 "server": "All",
