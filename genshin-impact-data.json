@@ -123,9 +123,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Lost_Riches/2024-01-02"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Heated Battle Mode: Sprinting Stratagems",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Heated_Battle_Mode_Sprinting_Stratagems.png/revision/latest/scale-to-width-down/250?cb=20240104040148",
@@ -137,9 +135,11 @@
                     "In-Game",
                     "Heated Battle Mode"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2024-01-06"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Dance of Resolute Will",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Dance_of_Resolute_Will.png/revision/latest/scale-to-width-down/250?cb=20231208125656",
