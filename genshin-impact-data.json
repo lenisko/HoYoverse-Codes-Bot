@@ -44,6 +44,19 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Fontinalia"
             },
             {
+                "event": "Gazing Up at Eternity, Looking Down at the World",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Gazing_Up_at_Eternity%2C_Looking_Down_at_the_World.png/revision/latest/scale-to-width-down/250?cb=20231218042913",
+                "duration": [
+                    "December 20, 2023",
+                    "January 31, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
+            },
+            {
                 "event": "The Forge Realm's Temper: Game of Wits",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/The_Forge_Realm%27s_Temper_Game_of_Wits_2023-12-20.png/revision/latest/scale-to-width-down/250?cb=20231218042911",
                 "duration": [
@@ -58,19 +71,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-12-20"
             },
             {
-                "event": "Gazing Up at Eternity, Looking Down at the World",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Gazing_Up_at_Eternity%2C_Looking_Down_at_the_World.png/revision/latest/scale-to-width-down/250?cb=20231218042913",
-                "duration": [
-                    "December 20, 2023",
-                    "January 31, 2024"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
-            },
-            {
                 "event": "Twitch Drops 2023-12-20",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Twitch_Drops_-_Watch_Livestreams_to_Claim_Rewards.png/revision/latest/scale-to-width-down/250?cb=20220625145522",
                 "duration": [
@@ -82,34 +82,6 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Twitch_Drops/2023-12-20"
-            },
-            {
-                "event": "Roses and Muskets",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/28/Roses_and_Muskets.png/revision/latest/scale-to-width-down/250?cb=20231219041329",
-                "duration": [
-                    "December 21, 2023",
-                    "January 08, 2024"
-                ],
-                "type": [
-                    "In-Game",
-                    "Flagship"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Roses_and_Muskets"
-            },
-            {
-                "event": "Melusines' Survey",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Melusines%27_Survey.png/revision/latest/scale-to-width-down/250?cb=20231225042605",
-                "duration": [
-                    "December 25, 2023",
-                    "January 07, 2024"
-                ],
-                "type": [
-                    "Web",
-                    "Web"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Melusines%27_Survey"
             },
             {
                 "event": "Lost Riches 2024-01-02",
