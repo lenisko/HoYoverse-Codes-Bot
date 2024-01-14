@@ -358,27 +358,6 @@
                 "isExpired": false
             },
             {
-                "code": "EA8RWDMBVRTR",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Primogem",
-                        "amount": "60",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
-                    },
-                    {
-                        "name": "Adventurer's Experience",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
-                    }
-                ],
-                "duration": [
-                    "Discovered: November 7, 2023",
-                    "Valid until: January 8, 2024"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "GENSHINGIFT",
                 "server": "All",
                 "rewards": [
@@ -401,6 +380,27 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "EA8RWDMBVRTR",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "60",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Adventurer's Experience",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
+                    }
+                ],
+                "duration": [
+                    "Discovered: November 7, 2023",
+                    "Expired: January 8, 2024"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "HoYoFEST 2023",
                 "server": "All",
