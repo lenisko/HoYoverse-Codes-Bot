@@ -41,19 +41,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Critter_Pick"
             },
             {
-                "event": "Gift of Odyssey 2023-12-27",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
-                "duration": [
-                    "December 27, 2023",
-                    "February 05, 2024"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
-            },
-            {
                 "event": "Nameless Honor 2023-12-27",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
                 "duration": [
@@ -66,9 +53,35 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-12-27"
+            },
+            {
+                "event": "Gift of Odyssey 2023-12-27",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
+                "duration": [
+                    "December 27, 2023",
+                    "February 05, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
             }
         ],
         "Upcoming": [
+            {
+                "event": "Virtual Scentventure",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Event_Virtual_Scentventure.png/revision/latest/scale-to-width-down/250?cb=20240117043758",
+                "duration": [
+                    "January 17, 2024",
+                    "February 05, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Virtual_Scentventure"
+            },
             {
                 "event": "Realm of the Strange",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Event_Realm_of_the_Strange.png/revision/latest/scale-to-width-down/250?cb=20231119173725",
@@ -193,6 +206,18 @@
                 ],
                 "status": "Permanent",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Simulated_Universe:_Gold_and_Gears"
+            },
+            {
+                "event": "Pure Fiction",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/65/Event_Pure_Fiction.png/revision/latest/scale-to-width-down/250?cb=20240117051326",
+                "duration": [
+                    "January 08, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Pure_Fiction"
             }
         ]
     },

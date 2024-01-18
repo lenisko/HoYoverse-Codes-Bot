@@ -96,9 +96,7 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Dance_of_Resolute_Will"
-            }
-        ],
-        "Upcoming": [
+            },
             {
                 "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20240114213635",
@@ -109,9 +107,11 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
-            },
+            }
+        ],
+        "Upcoming": [
             {
                 "event": "Marvelous Merchandise 2024-01-22",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Marvelous_Merchandise_2022-11-28.png/revision/latest/scale-to-width-down/250?cb=20221126042952",
@@ -252,42 +252,6 @@
     "Codes": {
         "activeCodes": [
             {
-                "code": "HJGDJA2FW7FHNNDFKSKEX6TH",
-                "server": "All",
-                "rewards": [
-                    {
-                        "name": "Mora",
-                        "amount": "10000",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
-                    },
-                    {
-                        "name": "Adventurer's Experience",
-                        "amount": "10",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
-                    },
-                    {
-                        "name": "Fine Enhancement Ore",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Fine_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073916"
-                    },
-                    {
-                        "name": "Stir-Fried Fish Noodles",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Stir-Fried_Fish_Noodles.png/revision/latest/scale-to-width-down/20?cb=20210428163030"
-                    },
-                    {
-                        "name": "Jueyun Chili Chicken",
-                        "amount": "5",
-                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Jueyun_Chili_Chicken.png/revision/latest/scale-to-width-down/20?cb=20210415134823"
-                    }
-                ],
-                "duration": [
-                    "Discovered: December 20, 2023",
-                    "Valid: (indefinite)"
-                ],
-                "isExpired": false
-            },
-            {
                 "code": "JB95D2V5XGJ5",
                 "server": "All",
                 "rewards": [
@@ -367,6 +331,42 @@
             }
         ],
         "expiredCodes": [
+            {
+                "code": "HJGDJA2FW7FHNNDFKSKEX6TH",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Mora",
+                        "amount": "10000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    },
+                    {
+                        "name": "Adventurer's Experience",
+                        "amount": "10",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/0/07/Item_Adventurer%27s_Experience.png/revision/latest/scale-to-width-down/20?cb=20201116222310"
+                    },
+                    {
+                        "name": "Fine Enhancement Ore",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Item_Fine_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073916"
+                    },
+                    {
+                        "name": "Stir-Fried Fish Noodles",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/9/98/Item_Stir-Fried_Fish_Noodles.png/revision/latest/scale-to-width-down/20?cb=20210428163030"
+                    },
+                    {
+                        "name": "Jueyun Chili Chicken",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/7/72/Item_Jueyun_Chili_Chicken.png/revision/latest/scale-to-width-down/20?cb=20210415134823"
+                    }
+                ],
+                "duration": [
+                    "Discovered: December 20, 2023",
+                    "Expired: January 16, 2024"
+                ],
+                "isExpired": true
+            },
             {
                 "code": "EA8RWDMBVRTR",
                 "server": "All",
