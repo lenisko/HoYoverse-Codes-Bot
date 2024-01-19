@@ -109,6 +109,32 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
+            },
+            {
+                "event": "Lean, Mean, Cleaning Machine!",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b0/Lean%2C_Mean%2C_Cleaning_Machine.png/revision/latest/scale-to-width-down/250?cb=20240118050511",
+                "duration": [
+                    "January 18, 2024",
+                    "January 24, 2024"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Lean,_Mean,_Cleaning_Machine!"
+            },
+            {
+                "event": "Starlit Letter",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Event_Starlit_Letter.png/revision/latest/scale-to-width-down/250?cb=20240118203334",
+                "duration": [
+                    "January 18, 2024",
+                    "January 24, 2024"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Starlit_Letter"
             }
         ],
         "Upcoming": [
