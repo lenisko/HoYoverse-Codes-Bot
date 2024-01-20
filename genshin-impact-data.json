@@ -150,6 +150,94 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/2024-01-22"
+            },
+            {
+                "event": "Overflowing Mastery 4.4",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/4.4"
+            },
+            {
+                "event": "Receiver of Friends From Afar",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/8/83/Receiver_of_Friends_From_Afar.png/revision/latest/scale-to-width-down/250?cb=20240119130108",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Receiver_of_Friends_From_Afar"
+            },
+            {
+                "event": "Triumphant Frenzy",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/ba/Triumphant_Frenzy.png/revision/latest/scale-to-width-down/250?cb=20240119130112",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Triumphant_Frenzy"
+            },
+            {
+                "event": "Of Kites and New Sights",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Of_Kites_and_New_Sights.png/revision/latest/scale-to-width-down/250?cb=20240119130232",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Login",
+                    "Mail"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Of_Kites_and_New_Sights"
+            },
+            {
+                "event": "Journey Through Hilinigmatic Terrain",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Journey_Through_Hilinigmatic_Terrain.png/revision/latest/scale-to-width-down/250?cb=20240119130110",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Journey_Through_Hilinigmatic_Terrain"
+            },
+            {
+                "event": "May Fortune Find You 4.4",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/1/18/May_Fortune_Find_You_4.4.png/revision/latest/scale-to-width-down/250?cb=20240119130230",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Login"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/May_Fortune_Find_You/4.4"
+            },
+            {
+                "event": "Vibrant Harriers Aloft in Spring Breeze",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/c/ca/Vibrant_Harriers_Aloft_in_Spring_Breeze.png/revision/latest/scale-to-width-down/250?cb=20240119130106",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Flagship"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Vibrant_Harriers_Aloft_in_Spring_Breeze"
             }
         ],
         "Permanent": [
@@ -277,6 +365,69 @@
     },
     "Codes": {
         "activeCodes": [
+            {
+                "code": "BBQ8AZHUH2CZ",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mystic Enhancement Ore",
+                        "amount": "10",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/5/55/Item_Mystic_Enhancement_Ore.png/revision/latest/scale-to-width-down/20?cb=20210106073921"
+                    }
+                ],
+                "duration": [
+                    "Discovered: January 19, 2024",
+                    "Valid until: January 20, 2024"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "MT88AYHCZ2UR",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Hero's Wit",
+                        "amount": "5",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/2/26/Item_Hero%27s_Wit.png/revision/latest/scale-to-width-down/20?cb=20201116222208"
+                    }
+                ],
+                "duration": [
+                    "Discovered: January 19, 2024",
+                    "Valid until: January 20, 2024"
+                ],
+                "isExpired": false
+            },
+            {
+                "code": "FA9QAGYDZJEV",
+                "server": "All",
+                "rewards": [
+                    {
+                        "name": "Primogem",
+                        "amount": "100",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/d/d4/Item_Primogem.png/revision/latest/scale-to-width-down/20?cb=20201117071158"
+                    },
+                    {
+                        "name": "Mora",
+                        "amount": "50000",
+                        "imageURL": "https://static.wikia.nocookie.net/gensin-impact/images/8/84/Item_Mora.png/revision/latest/scale-to-width-down/20?cb=20210106073715"
+                    }
+                ],
+                "duration": [
+                    "Discovered: January 19, 2024",
+                    "Valid until: January 20, 2024"
+                ],
+                "isExpired": false
+            },
             {
                 "code": "JB95D2V5XGJ5",
                 "server": "All",
