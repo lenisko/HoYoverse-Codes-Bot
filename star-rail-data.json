@@ -28,19 +28,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Critter_Pick"
             },
             {
-                "event": "Gift of Odyssey 2023-12-27",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
-                "duration": [
-                    "December 27, 2023",
-                    "February 05, 2024"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
-            },
-            {
                 "event": "Nameless Honor 2023-12-27",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Event_Nameless_Honor.png/revision/latest/scale-to-width-down/250?cb=20230809235056",
                 "duration": [
@@ -55,6 +42,19 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Nameless_Honor/2023-12-27"
             },
             {
+                "event": "Gift of Odyssey 2023-12-27",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Event_Gift_of_Odyssey_2023-12-27.png/revision/latest/scale-to-width-down/250?cb=20231227031657",
+                "duration": [
+                    "December 27, 2023",
+                    "February 05, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Gift_of_Odyssey/2023-12-27"
+            },
+            {
                 "event": "Virtual Scentventure",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Event_Virtual_Scentventure.png/revision/latest/scale-to-width-down/250?cb=20240117043758",
                 "duration": [
@@ -66,6 +66,19 @@
                 ],
                 "status": "Current",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Virtual_Scentventure"
+            },
+            {
+                "event": "Proposal from Dr. Ratio",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/55/Event_Proposal_from_Dr._Ratio.png/revision/latest/scale-to-width-down/250?cb=20240120050055",
+                "duration": [
+                    "January 17, 2024",
+                    "May 01, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Current",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Proposal_from_Dr._Ratio"
             }
         ],
         "Upcoming": [
