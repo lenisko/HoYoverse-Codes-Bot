@@ -110,18 +110,6 @@
                 "page": "https://honkai-star-rail.fandom.com/wiki/Honkai:_Star_Rail_Daily_Check-in"
             },
             {
-                "event": "Starkissed Synchrony",
-                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Event_Starkissed_Synchrony.png/revision/latest/scale-to-width-down/250?cb=20230720143547",
-                "duration": [
-                    "April 26, 2023"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Permanent",
-                "page": "https://honkai-star-rail.fandom.com/wiki/Starkissed_Synchrony"
-            },
-            {
                 "event": "Trailblazing Will",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Event_Trailblazing_Will.png/revision/latest/scale-to-width-down/250?cb=20230528143248",
                 "duration": [
@@ -144,6 +132,18 @@
                 ],
                 "status": "Permanent",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Turquoise%27s_Reverie"
+            },
+            {
+                "event": "Starkissed Synchrony",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4f/Event_Starkissed_Synchrony.png/revision/latest/scale-to-width-down/250?cb=20230720143547",
+                "duration": [
+                    "April 26, 2023"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Starkissed_Synchrony"
             },
             {
                 "event": "Starlit Homecoming",
@@ -218,6 +218,18 @@
                 ],
                 "status": "Permanent",
                 "page": "https://honkai-star-rail.fandom.com/wiki/Pure_Fiction"
+            },
+            {
+                "event": "Camping in the Snow",
+                "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Event_Camping_in_the_Snow.png/revision/latest/scale-to-width-down/250?cb=20240121134915",
+                "duration": [
+                    "January 08, 2024"
+                ],
+                "type": [
+                    "In-Game"
+                ],
+                "status": "Permanent",
+                "page": "https://honkai-star-rail.fandom.com/wiki/Camping_in_the_Snow"
             }
         ]
     },
