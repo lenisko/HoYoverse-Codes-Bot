@@ -16,20 +16,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Battle_Pass/Fontinalia"
             },
             {
-                "event": "The Forge Realm's Temper: Game of Wits",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/The_Forge_Realm%27s_Temper_Game_of_Wits_2023-12-20.png/revision/latest/scale-to-width-down/250?cb=20231218042911",
-                "duration": [
-                    "December 20, 2023",
-                    "January 31, 2024"
-                ],
-                "type": [
-                    "In-Game",
-                    "The Forge Realm's Temper"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-12-20"
-            },
-            {
                 "event": "Gazing Up at Eternity, Looking Down at the World",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2a/Gazing_Up_at_Eternity%2C_Looking_Down_at_the_World.png/revision/latest/scale-to-width-down/250?cb=20231218042913",
                 "duration": [
@@ -43,18 +29,18 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Gazing_Up_at_Eternity,_Looking_Down_at_the_World"
             },
             {
-                "event": "Heated Battle Mode: Sprinting Stratagems",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/b/b1/Heated_Battle_Mode_Sprinting_Stratagems.png/revision/latest/scale-to-width-down/250?cb=20240104040148",
+                "event": "The Forge Realm's Temper: Game of Wits",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/9d/The_Forge_Realm%27s_Temper_Game_of_Wits_2023-12-20.png/revision/latest/scale-to-width-down/250?cb=20231218042911",
                 "duration": [
-                    "January 06, 2024",
-                    "January 22, 2024"
+                    "December 20, 2023",
+                    "January 31, 2024"
                 ],
                 "type": [
                     "In-Game",
-                    "Heated Battle Mode"
+                    "The Forge Realm's Temper"
                 ],
                 "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Heated_Battle_Mode/2024-01-06"
+                "page": "https://genshin-impact.fandom.com/wiki/The_Forge_Realm%27s_Temper/2023-12-20"
             },
             {
                 "event": "Test Run - Raiden Shogun, Yoimiya, Chevreuse, Kujou Sara, Bennett",
@@ -71,19 +57,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event/2024-01-09"
             },
             {
-                "event": "Dance of Resolute Will",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/2/2d/Dance_of_Resolute_Will.png/revision/latest/scale-to-width-down/250?cb=20240109025008",
-                "duration": [
-                    "January 10, 2024",
-                    "January 22, 2024"
-                ],
-                "type": [
-                    "In-Game"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Dance_of_Resolute_Will"
-            },
-            {
                 "event": "Arataki Blazing Armor Beetle Battle Boot Camp",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/0/0f/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp.png/revision/latest/scale-to-width-down/250?cb=20240114213635",
                 "duration": [
@@ -95,6 +68,19 @@
                 ],
                 "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Arataki_Blazing_Armor_Beetle_Battle_Boot_Camp"
+            },
+            {
+                "event": "Starlit Letter",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Event_Starlit_Letter.png/revision/latest/scale-to-width-down/250?cb=20240118203334",
+                "duration": [
+                    "January 18, 2024",
+                    "January 24, 2024"
+                ],
+                "type": [
+                    "Web"
+                ],
+                "status": "Current",
+                "page": "https://genshin-impact.fandom.com/wiki/Starlit_Letter"
             },
             {
                 "event": "Lean, Mean, Cleaning Machine!",
@@ -110,21 +96,6 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Lean,_Mean,_Cleaning_Machine!"
             },
             {
-                "event": "Starlit Letter",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/a/ad/Event_Starlit_Letter.png/revision/latest/scale-to-width-down/250?cb=20240118203334",
-                "duration": [
-                    "January 18, 2024",
-                    "January 24, 2024"
-                ],
-                "type": [
-                    "Web"
-                ],
-                "status": "Current",
-                "page": "https://genshin-impact.fandom.com/wiki/Starlit_Letter"
-            }
-        ],
-        "Upcoming": [
-            {
                 "event": "Marvelous Merchandise 2024-01-22",
                 "image": "https://static.wikia.nocookie.net/gensin-impact/images/f/f9/Marvelous_Merchandise_2022-11-28.png/revision/latest/scale-to-width-down/250?cb=20221126042952",
                 "duration": [
@@ -134,12 +105,14 @@
                 "type": [
                     "In-Game"
                 ],
-                "status": "Upcoming",
+                "status": "Current",
                 "page": "https://genshin-impact.fandom.com/wiki/Marvelous_Merchandise/2024-01-22"
-            },
+            }
+        ],
+        "Upcoming": [
             {
-                "event": "Overflowing Mastery 4.4",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
+                "event": "Journey Through Hilinigmatic Terrain",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Journey_Through_Hilinigmatic_Terrain.png/revision/latest/scale-to-width-down/250?cb=20240119130110",
                 "duration": [
                     " TBA "
                 ],
@@ -147,7 +120,7 @@
                     "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/4.4"
+                "page": "https://genshin-impact.fandom.com/wiki/Journey_Through_Hilinigmatic_Terrain"
             },
             {
                 "event": "Receiver of Friends From Afar",
@@ -174,22 +147,8 @@
                 "page": "https://genshin-impact.fandom.com/wiki/Triumphant_Frenzy"
             },
             {
-                "event": "Of Kites and New Sights",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Of_Kites_and_New_Sights.png/revision/latest/scale-to-width-down/250?cb=20240119130232",
-                "duration": [
-                    " TBA "
-                ],
-                "type": [
-                    "In-Game",
-                    "Login",
-                    "Mail"
-                ],
-                "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Of_Kites_and_New_Sights"
-            },
-            {
-                "event": "Journey Through Hilinigmatic Terrain",
-                "image": "https://static.wikia.nocookie.net/gensin-impact/images/d/dd/Journey_Through_Hilinigmatic_Terrain.png/revision/latest/scale-to-width-down/250?cb=20240119130110",
+                "event": "Overflowing Mastery 4.4",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/5/58/Overflowing_Mastery.png/revision/latest/scale-to-width-down/250?cb=20210529040222",
                 "duration": [
                     " TBA "
                 ],
@@ -197,7 +156,7 @@
                     "In-Game"
                 ],
                 "status": "Upcoming",
-                "page": "https://genshin-impact.fandom.com/wiki/Journey_Through_Hilinigmatic_Terrain"
+                "page": "https://genshin-impact.fandom.com/wiki/Overflowing_Mastery/4.4"
             },
             {
                 "event": "May Fortune Find You 4.4",
@@ -211,6 +170,20 @@
                 ],
                 "status": "Upcoming",
                 "page": "https://genshin-impact.fandom.com/wiki/May_Fortune_Find_You/4.4"
+            },
+            {
+                "event": "Of Kites and New Sights",
+                "image": "https://static.wikia.nocookie.net/gensin-impact/images/9/96/Of_Kites_and_New_Sights.png/revision/latest/scale-to-width-down/250?cb=20240119130232",
+                "duration": [
+                    " TBA "
+                ],
+                "type": [
+                    "In-Game",
+                    "Login",
+                    "Mail"
+                ],
+                "status": "Upcoming",
+                "page": "https://genshin-impact.fandom.com/wiki/Of_Kites_and_New_Sights"
             },
             {
                 "event": "Vibrant Harriers Aloft in Spring Breeze",
