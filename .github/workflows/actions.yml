@@ -23,10 +23,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: execute Genshin Code check
-        run: python scrape.py --game genshin --webhook {{ secrets.GENSHIN_DISCORD_WEBHOOK }}
+        run: python scrape.py --game genshin --webhook ${{ secrets.GENSHIN_DISCORD_WEBHOOK }}
 
       - name: execute Honkai Code check
-        run: python scrape.py --game honkai --webhook {{ secrets.HONKAI_DISCORD_WEBHOOK }}
+        run: python scrape.py --game honkai --webhook ${{ secrets.HONKAI_DISCORD_WEBHOOK }}
 
       - name: commit files
         run: |
