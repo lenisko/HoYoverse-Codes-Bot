@@ -1,6 +1,6 @@
 # HoYoverse Code Bot
 
-Join [HoYoverse Code Bot](https://discord.gg/CvxpzHtERk) discord to get notifications.
+Join [HoYoverse Code Bot](https://discord.gg/NYEN58dGj8) discord to get notifications.
 
 Parsing following fandom pages:
 - [Genshin Impact](https://genshin-impact.fandom.com/wiki/Promotional_Code)
