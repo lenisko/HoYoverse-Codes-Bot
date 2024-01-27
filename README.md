@@ -1,1 +1,9 @@
-A data scraper for my [Honkai: Star Rail Helper](https://github.com/jeryjs/Star-Rail-Helper) app for getting redemption codes and events from [Fandom](https://honkai-star-rail.fandom.com) automatically and saving them in json for it to accessible via api calls.
+# HoYoverse Code Bot
+
+Join [HoYoverse Code Bot](https://discord.gg/H6yjkY43Ct) discord to get notifications.
+
+Parsing following fandom pages:
+- [Genshin Impact](https://genshin-impact.fandom.com/wiki/Promotional_Code)
+- [Honkai: Star Rail Helper](https://honkai-star-rail.fandom.com/wiki/Redemption_Code)
+
+Code is based on [data-scraper-for-star-rail-helper](https://github.com/jeryjs/data-scraper-for-star-rail-helper)

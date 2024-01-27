@@ -1,41 +1,40 @@
-name: run data scrapers
+name: HoYoverse Codes Scrape
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Every day at 0:00
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-
       - name: checkout repo content
-        uses: actions/checkout@v2 # checkout the repository content to github runner
+        uses: actions/checkout@v2
 
       - name: setup python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10' # install the python version needed
+          python-version: '3.12'
           
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          
-      - name: execute star-rail-data-scraper script
-        run: python star-rail-data-scrape.py
-          
-      - name: execute genshin-impact-data-scraper script
-        run: python genshin-impact-data-scrape.py
-          
+
+      - name: execute Genshin Code check
+        run: python scrape.py --flow genshin --webhook {{ secrets.GENSHIN_DISCORD_WEBHOOK }}
+
+      - name: execute Honkai Code check
+        run: python scrape.py --flow honkai --webhook {{ secrets.HONKAI_DISCORD_WEBHOOK }}
+
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "[Data Scrapers] Refreshed data from Fandom" --allow-empty)
-          
+
       - name: push changes
         uses: ad-m/github-push-action@v0.6.0
         with:
