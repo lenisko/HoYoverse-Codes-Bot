@@ -70,10 +70,11 @@
         ],
         "Upcoming": [
             {
-                "event": "Realm of the Strange",
+                "event": "Realm of the Strange 2024-01-26",
                 "image": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Event_Realm_of_the_Strange.png/revision/latest/scale-to-width-down/250?cb=20231119173725",
                 "duration": [
-                    ""
+                    "January 26, 2024",
+                    "February 02, 2024"
                 ],
                 "type": [
                     "In-Game"
