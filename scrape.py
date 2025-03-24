@@ -1,3 +1,4 @@
+import sys
 import argparse
 import json
 from typing import List, Dict
@@ -22,55 +23,84 @@ GAME_CONFIG = {
         "avatar": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Character_Huohuo_Icon.png/revision/latest/scale-to-width-down/250",
         "url": "https://honkai-star-rail.fandom.com/wiki/Redemption_Code",
         "activate": "https://hsr.hoyoverse.com/gift?code=",
-    }
+    },
 }
 
 
-def _parse_duration(duration_html) -> List[str]:
-    duration = str(duration_html).split('>')
-    for i in range(len(duration)):
-        duration[i] = duration[i].replace('<br/', '').replace('\n</td', '').strip()
-    return [duration[1], duration[2]]
+def _parse_duration(td) -> Dict[str, str]:
+    text = td.get_text(separator=" ", strip=True)
+    discovered = None
+    valid_until = None
+
+    if "Discovered:" in text:
+        parts = text.split("Discovered:")
+        discovered_part = parts[1].split("Valid")[0].strip()
+        discovered = discovered_part
+
+    if "Valid until:" in text:
+        valid_until = text.split("Valid until:")[-1].strip()
+    elif "Valid:" in text:
+        valid_until = text.split("Valid:")[-1].strip()
+
+    return {
+        "discovered": discovered,
+        "validUntil": valid_until
+        if valid_until and valid_until.lower() != "(indefinite)"
+        else None,
+    }
 
 
 def _parse_rewards(html_element) -> List[Dict]:
     rewards_list = []
 
-    for item in html_element.select('span.item'):
-        name = item.select_one('span.item-text a').text.strip()
-        amount = item.select_one('span.item-text').text.replace(name, '').replace(' ×', '').strip()
-        image_url = item.select_one('span.hidden > a > img').get('data-src', '') or item.select_one(
-            'span.hidden > a > img').get('src', '')
+    for item in html_element.select("span.item"):
+        name_tag = item.select_one("span.item-text a")
+        name = name_tag.text.strip() if name_tag else ""
 
-        rewards_list.append({
-            'name': name,
-            'amount': amount,
-            'imageURL': image_url
-        })
+        item_text = item.select_one("span.item-text")
+        amount = (
+            item_text.text.replace(name, "").replace(" ×", "").strip()
+            if item_text
+            else ""
+        )
+
+        img_tag = item.select_one("span.hidden img")
+        image_url = img_tag.get("data-src") or img_tag.get("src") if img_tag else ""
+
+        if name:
+            rewards_list.append({"name": name, "amount": amount, "imageURL": image_url})
 
     return rewards_list
 
 
 def genshin_impact() -> List[Dict]:
-    response = requests.get(GAME_CONFIG['genshin']['url'])
+    response = requests.get(GAME_CONFIG["genshin"]["url"])
     response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
-    table = soup.select('.wikitable')[0].select('tbody > tr:not(:first-child)')
+    soup = BeautifulSoup(response.text, "html.parser")
+    rows = soup.select("tbody > tr")
     output = []
 
-    for index, code_row in enumerate(table):
-        code = code_row.contents[1].text.split('[')[0].strip()
-        server = code_row.contents[3].text.strip()
-        rewards = _parse_rewards(code_row.contents[5])
-        duration = _parse_duration(code_row.contents[7])
-        is_expired = 'Expired:' in code_row.contents[7].text
+    for row in rows:
+        tds = row.find_all("td")
+        if len(tds) < 4:
+            continue
+
+        code_link = tds[0].find("a", href=True)
+        if not code_link:
+            continue
+
+        code = code_link.text.strip()
+        server = tds[1].text.strip()
+        rewards = _parse_rewards(tds[2])
+        duration = _parse_duration(tds[3])
+        is_expired = False
 
         code_item = {
-            'code': code,
-            'server': server,
-            'rewards': rewards,
-            'duration': duration,
-            'isExpired': is_expired
+            "code": code,
+            "server": server,
+            "rewards": rewards,
+            "duration": duration,
+            "isExpired": is_expired,
         }
 
         if rewards:
@@ -80,77 +110,116 @@ def genshin_impact() -> List[Dict]:
 
 
 def honkai_codes() -> List[Dict]:
-    response = requests.get(GAME_CONFIG['honkai']['url'])
+    response = requests.get(GAME_CONFIG["honkai"]["url"])
     response.raise_for_status()
-    soup = BeautifulSoup(response.text, 'html.parser')
+    soup = BeautifulSoup(response.text, "html.parser")
 
-    table = soup.select('.wikitable')[0].select('tbody > tr:not(:first-child)')
+    table_rows = soup.select_one(".wikitable").select("tbody > tr:not(:first-child)")
 
     output = []
 
-    for index, code_row in enumerate(table):
-        code = code_row.contents[0].text.split('[')[0].strip()
-        server = code_row.contents[1].text.strip()
-        rewards = _parse_rewards(code_row.contents[2])
-        duration = _parse_duration(code_row.contents[3])
-        is_expired = 'Expired:' in code_row.contents[3].text
+    for row in table_rows:
+        tds = row.find_all("td")
+        if len(tds) < 4:
+            continue
+
+        code_tag = tds[0].find("code")
+        code = code_tag.text.strip() if code_tag else ""
+        if not code:
+            continue
+        server = tds[1].text.strip()
+        rewards = _parse_rewards(tds[2])
+        duration = _parse_duration(tds[3])
+        is_expired = "Expired:" in tds[3].text
+
+        if not rewards:
+            continue
 
         code_item = {
-            'code': code,
-            'server': server,
-            'rewards': rewards,
-            'duration': duration,
-            'isExpired': is_expired
+            "code": code,
+            "server": server,
+            "rewards": rewards,
+            "duration": duration,
+            "isExpired": is_expired,
         }
 
-        if rewards:
-            output.append(code_item)
+        output.append(code_item)
 
     return output
 
 
 def load_codes(game: str) -> List[str]:
-    with open(GAME_CONFIG[game]['filename'], "r") as f:
+    with open(GAME_CONFIG[game]["filename"], "r") as f:
         data = json.load(f)
 
     return data
 
 
 def save_codes(game: str, data: List[str]) -> None:
-    with open(GAME_CONFIG[game]['filename'], "w") as f:
+    with open(GAME_CONFIG[game]["filename"], "w") as f:
         json.dump(data, f)
 
 
 def send_webhook(game: str, data: Dict, webhook: str) -> None:
-    rewards_str = ""
+    rewards_text = ""
+    for reward in data["rewards"]:
+        rewards_text += f"×{reward['amount']} {reward['name']}\n"
 
-    for row in data['rewards']:
-        rewards_str += f"{row['name']} ×{row['amount']}\n"
+    fields = [
+        {
+            "name": "Discovered",
+            "value": data["duration"].get("discovered") or "Unknown",
+            "inline": False,
+        },
+        {
+            "name": "Valid Until",
+            "value": data["duration"].get("validUntil") or "Indefinite",
+            "inline": False,
+        },
+    ]
+
+    embed = {
+        "title": f"[{data['server']}] {GAME_CONFIG[game]['name']}",
+        "url": f"{GAME_CONFIG[game]['activate']}{data['code']}",
+        "description": f"**Code:** `{data['code']}`\n\n**Rewards**\n{rewards_text.strip()}",
+        "color": 0x00BFFF,
+        "fields": fields,
+        "footer": {"text": f"{GAME_CONFIG[game]['name']} • {data['code']}"},
+    }
 
     webhook_data = {
         "content": None,
-        "username": GAME_CONFIG[game]['bot_name'],
-        "avatar_url": GAME_CONFIG[game]['avatar'],
-        "embeds": [
-            {
-                "title": f"[{data['server']}] {GAME_CONFIG[game]['name']}",
-                "description": f"```{data['code']}```\n[Click to activate]({GAME_CONFIG[game]['activate']}{data['code']})\n\n**Valid**\n{'\n'.join(data['duration'])}\n\n**Rewards**\n{rewards_str}"
-            }
-        ]
+        "username": GAME_CONFIG[game]["bot_name"],
+        "avatar_url": GAME_CONFIG[game]["avatar"],
+        "embeds": [embed],
     }
+
     requests.post(webhook, json=webhook_data)
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("HoYoverse Code Bot")
-    parser.add_argument('-g', "--game", choices=['honkai', 'genshin'], help="Specify the game (honkai or genshin)", required=True)
+    parser.add_argument(
+        "-g",
+        "--game",
+        choices=["honkai", "genshin"],
+        help="Specify the game (honkai or genshin)",
+        required=True,
+    )
     parser.add_argument("-w", "--webhook", help="Target webhook", required=False)
+    parser.add_argument("-t", "--test", help="Test", action="store_true")
     args = parser.parse_args()
 
     if args.game == "genshin":
         codes = genshin_impact()
     else:
         codes = honkai_codes()
+
+    if args.test:
+        from pprint import pprint
+
+        pprint(codes)
+        sys.exit(0)
 
     previous_codes = load_codes(args.game)
     new_codes = reversed([x for x in codes if x["code"] not in previous_codes])
