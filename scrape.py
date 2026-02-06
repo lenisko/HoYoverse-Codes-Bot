@@ -88,17 +88,17 @@ def genshin_impact() -> List[Dict]:
 
     for row in rows:
         tds = row.find_all("td")
-        if len(tds) < 4:
+        if len(tds) < 5:
             continue
 
-        code_link = tds[0].find("a", href=True)
+        code_link = tds[1].find("a", href=True)
         if not code_link:
             continue
 
         code = code_link.text.strip()
-        server = tds[1].text.strip()
-        rewards = _parse_rewards(tds[2])
-        duration = _parse_duration(tds[3])
+        server = tds[2].text.strip()
+        rewards = _parse_rewards(tds[3])
+        duration = _parse_duration(tds[4])
         is_expired = False
 
         code_item = {
