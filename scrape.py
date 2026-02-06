@@ -20,6 +20,8 @@ GAME_CONFIG = {
         "filename": "genshin-cache.json",
         "avatar": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Keqing_Icon.png/revision/latest/scale-to-width-down/250",
         "url": "https://genshin-impact.fandom.com/wiki/Promotional_Code",
+        "api_url": "https://genshin-impact.fandom.com/api.php",
+        "api_page": "Promotional_Code",
         "activate": "https://genshin.hoyoverse.com/en/gift?code=",
     },
     "honkai": {
@@ -28,9 +30,27 @@ GAME_CONFIG = {
         "filename": "honkai-cache.json",
         "avatar": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/68/Character_Huohuo_Icon.png/revision/latest/scale-to-width-down/250",
         "url": "https://honkai-star-rail.fandom.com/wiki/Redemption_Code",
+        "api_url": "https://honkai-star-rail.fandom.com/api.php",
+        "api_page": "Redemption_Code",
         "activate": "https://hsr.hoyoverse.com/gift?code=",
     },
 }
+
+
+def _fetch_page(game: str) -> BeautifulSoup:
+    config = GAME_CONFIG[game]
+    response = SESSION.get(
+        config["api_url"],
+        params={
+            "action": "parse",
+            "page": config["api_page"],
+            "format": "json",
+            "prop": "text",
+        },
+    )
+    response.raise_for_status()
+    html = response.json()["parse"]["text"]["*"]
+    return BeautifulSoup(html, "html.parser")
 
 
 def _parse_duration(td) -> Dict[str, str]:
@@ -80,25 +100,23 @@ def _parse_rewards(html_element) -> List[Dict]:
 
 
 def genshin_impact() -> List[Dict]:
-    response = SESSION.get(GAME_CONFIG["genshin"]["url"])
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = _fetch_page("genshin")
     rows = soup.select("tbody > tr")
     output = []
 
     for row in rows:
         tds = row.find_all("td")
-        if len(tds) < 5:
+        if len(tds) < 4:
             continue
 
-        code_link = tds[1].find("a", href=True)
+        code_link = tds[0].find("a", href=True)
         if not code_link:
             continue
 
         code = code_link.text.strip()
-        server = tds[2].text.strip()
-        rewards = _parse_rewards(tds[3])
-        duration = _parse_duration(tds[4])
+        server = tds[1].text.strip()
+        rewards = _parse_rewards(tds[2])
+        duration = _parse_duration(tds[3])
         is_expired = False
 
         code_item = {
@@ -116,9 +134,7 @@ def genshin_impact() -> List[Dict]:
 
 
 def honkai_codes() -> List[Dict]:
-    response = SESSION.get(GAME_CONFIG["honkai"]["url"])
-    response.raise_for_status()
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = _fetch_page("honkai")
 
     table_rows = soup.select_one(".wikitable").select("tbody > tr:not(:first-child)")
 
