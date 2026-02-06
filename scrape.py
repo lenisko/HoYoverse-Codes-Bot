@@ -6,6 +6,12 @@ from typing import List, Dict
 import requests
 from bs4 import BeautifulSoup
 
+SESSION = requests.Session()
+SESSION.headers.update(
+    {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+    }
+)
 
 GAME_CONFIG = {
     "genshin": {
@@ -74,7 +80,7 @@ def _parse_rewards(html_element) -> List[Dict]:
 
 
 def genshin_impact() -> List[Dict]:
-    response = requests.get(GAME_CONFIG["genshin"]["url"])
+    response = SESSION.get(GAME_CONFIG["genshin"]["url"])
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
     rows = soup.select("tbody > tr")
@@ -110,7 +116,7 @@ def genshin_impact() -> List[Dict]:
 
 
 def honkai_codes() -> List[Dict]:
-    response = requests.get(GAME_CONFIG["honkai"]["url"])
+    response = SESSION.get(GAME_CONFIG["honkai"]["url"])
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
 
@@ -194,7 +200,7 @@ def send_webhook(game: str, data: Dict, webhook: str) -> None:
         "embeds": [embed],
     }
 
-    requests.post(webhook, json=webhook_data)
+    SESSION.post(webhook, json=webhook_data)
 
 
 if __name__ == "__main__":
