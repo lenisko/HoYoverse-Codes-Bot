@@ -130,7 +130,10 @@ def honkai_codes() -> List[Dict]:
             continue
 
         code_tag = tds[0].find("code")
-        code = code_tag.text.strip() if code_tag else ""
+        if code_tag:
+            code = code_tag.text.strip()
+        else:
+            code = tds[0].get_text(strip=True).split("[")[0].replace("Quick Redeem", "").strip()
         if not code:
             continue
         server = tds[1].text.strip()
